@@ -38,6 +38,31 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 **Link to work:** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
 
+### Day 5: June 12, 2017
+##### Serialization in C++
+
+**Today's Progress**: [Serialization (pt. 1)](http://davidederosa.com/basic-blockchain-programming/serialization-part-one/) of [Davide De Rosa's Blockchain Programming Tutorial](http://davidederosa.com/basic-blockchain-programming/).
+
+**Thoughts:** I started reading this a while ago, but wanted to actually run the code. This was a learning process as well, getting my computer set up for C++. I found a couple plug-ins for Atom. I think I'll try to make that work.
+
+I am making good progress, but going to sleep now...at 2:40 am. The last issue I encountered was [Undefined symbols for architecture x86_64](https://stackoverflow.com/questions/18751868/undefined-symbols-for-architecture-x86-64-compiling-problems). I'll work on it tomorrow.
+
+**Link to work:** [ex-hashes.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-hashes.c)
+
+### Day 6: June 13, 2017
+##### C day
+
+**Today's Progress**: I realized my understanding of C is mad rusty. Decided to look at a bunch of C project repos on GitHub.
+* [Terminal Games](https://github.com/stillmotion/terminal-games)
+* [Linux](https://github.com/torvalds/linux)
+* [Darknet: Open Source Neural Networks in C](https://github.com/pjreddie/darknet÷)
+
+Also, I played around with C in XCode a bit.
+
+**Thoughts:** I want the experience of learning to program like I should have had in college. I am going to take my time and understand all the code I read. Going through all these C project repositories gave me a sense of how C looks, and what people use it for, versus newer languages (Java, Swift, JavaScript, Python, etc).
+
+So I'm going to start with the Terminal Games repo. The games seem to be just outside of the bounds of my understanding. It'll challenge me, but not discourage me.
+
 ### Day: Date
 ##### Title/ Project
 
