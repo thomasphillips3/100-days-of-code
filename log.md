@@ -63,6 +63,15 @@ Also, I played around with C in XCode a bit.
 
 So I'm going to start with the Terminal Games repo. The games seem to be just outside of the bounds of my understanding. It'll challenge me, but not discourage me.
 
+### Day 7: June 18, 2017
+##### Remove static images - Park Players Website
+
+**Today's Progress:** Since I'm hosting in AWS, I want to only edit the HTML file, and store all assets (images, CSS, JS files) in AWS or in a CDN.
+
+**Thoughts:** While updating the images, I noticed some formatting issues have arisen. I'm using GitHub to track issues now. Part of becoming a better coder is learning to use the tools.
+
+**Link to work:** [Repo](https://github.com/thomasphillips3/parkplayers/issues/1)
+
 ### Day: Date
 ##### Title/ Project
 
