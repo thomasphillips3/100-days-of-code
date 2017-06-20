@@ -72,6 +72,20 @@ So I'm going to start with the Terminal Games repo. The games seem to be just ou
 
 **Link to work:** [Repo](https://github.com/thomasphillips3/parkplayers/issues/1)
 
+### Day 8: June 20, 2017
+##### Google C++ Course - Getting Started
+
+**Today's Progress**: Completed the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
+- Created a wrapper around g++ to compile code with stricter rules
+- [Formatting output with cout](http://www.cplusplus.com/reference/ostream/ostream/)
+
+**Thoughts:** While creating the gccp binary, I learned about permissions on Mac. I wasn't able to move my newly-created binary to /bin or /usr/bin, even as root. I found [this answer on SO](https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled), which told me about [System Integrity Protection](https://apple.stackexchange.com/questions/193368/what-is-the-rootless-feature-in-el-capitan-really) on Mac. Instead of removing SIP, I installed it to usr/local/bin.
+
+**Links to work:**
+- [gccp](https://gist.github.com/thomasphillips3/b378f6b81e16f770f5608cdd839d835e)
+- [hello.cpp](https://gist.github.com/thomasphillips3/5cd4d872e521645f829347fa9859749f)
+- [hello2.cpp](https://gist.github.com/thomasphillips3/585c9c43bd5c63dcf54876a9d1362ef5)
+
 ### Day: Date
 ##### Title/ Project
 
