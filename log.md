@@ -15,6 +15,18 @@
 - [hello2.cpp](https://gist.github.com/thomasphillips3/585c9c43bd5c63dcf54876a9d1362ef5)
 **********
 
+##### Calculator
+
+**Today's Progress**: Developing iOS 10 Apps with Swift - Lecture 2: [MVC](https://itunes.apple.com/us/course/2-mvc-ios-xcode-and-swift-demonstration/id1198467120?i=1000381073277&mt=2).
+
+**Thoughts:** Swift and iOS do things differently than Java and Android. It's a challenge getting used to both at the same time, but I think it's helping me grasp the overall concepts better. Seeing MVC in both settings is definitely helping me understand that better.
+
+**Link to work:**
+- [Built out the Controller](https://github.com/thomasphillips3/Calculator/commit/81a6bbf2d4b209c72da5bacb5a245b292a4b5743)
+- [Made layout work across all iOS devices](https://github.com/thomasphillips3/Calculator/commit/ed3ad47859fec61e8f3a9d3a4ce39f628490f93c)
+**********
+**********
+
 ### Day 7: June 18, 2017
 ##### Remove static images - Park Players Website
 
@@ -23,6 +35,7 @@
 **Thoughts:** While updating the images, I noticed some formatting issues have arisen. I'm using GitHub to track issues now. Part of becoming a better coder is learning to use the tools.
 
 **Link to work:** [Repo](https://github.com/thomasphillips3/parkplayers/issues/1)
+**********
 **********
 
 ### Day 6: June 13, 2017
@@ -39,6 +52,7 @@ Also, I played around with C in XCode a bit.
 
 So I'm going to start with the Terminal Games repo. The games seem to be just outside of the bounds of my understanding. It'll challenge me, but not discourage me.
 **********
+**********
 
 ### Day 5: June 12, 2017
 ##### Serialization in C++
@@ -51,6 +65,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 
 **Link to work:** [ex-hashes.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-hashes.c)
 **********
+**********
 
 ### Day 4: June 11, 2017
 ##### Park Players Website
@@ -61,6 +76,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 
 **Link to work:** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
 **********
+**********
 
 ### Day 3: June 10, 2017
 ##### Park Players Website
@@ -70,6 +86,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 **Thoughts:** I have never gotten fully into web development. I think I have always looked at it as easier than other languages, so I never bothered to get good at it. I like that HTML and CSS styling kinda helps me understand Android styling as well.
 
 **Link to work:** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
+**********
 **********
 
 ### Day 2: June 9, 2017
@@ -83,6 +100,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 **Link to work:** [Beatbox](https://github.com/thomasphillips3/Beatbox/commit/87f61e0f327f6c3fd475d67ed673f825773f14ff)
 **********
+**********
 
 ### Day 1: June 8, 2017
 ##### BeatBox
@@ -92,6 +110,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 **Thoughts:** Starting to take my time and learn subjects more thoroughly, instead of just copying code to finish the chapters quicker.
 
 **Link to work:** [BeatBox](https://github.com/thomasphillips3/Beatbox)
+**********
 **********
 
 
