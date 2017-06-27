@@ -1,9 +1,113 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 11: June 26, 2017
+##### Accessing Google APIs
+
+**Today's Progress**:
+- Read and worked through Google [Accessing Google APIs guide](https://developers.google.com/android/guides/api-client)
+- Learned how to set up Google Play Services in an Android app
+- Learned how to make synchronous and asynchronous calls
+
+**Thoughts:**
+This is good for helping me understand how Android Studio handles dependencies. I've been having some confusion with Gradle and adding dependencies. Now, I know the process
+- Make sure the Google Support Repository is available on the local machine using SDK Manager
+- Add Google Support Repository to the project by adding a new build rule under `dependencies` for the latest version of `play-services` in the app's `build.gradle` file
+
+Adding the Google Play Support library to an Android app has helped me understand what I need to do to link the the G++ compiler to the OpenSSL Library. I'm on a plane again, so I can't look up the exact command right now, but I think it's `g++ -l /path-to/openssl`.
+
+**********
+
+##### Mongoose
+
+**Today's Progress**:
+- [Mongoose Getting Started Guide](http://mongoosejs.com/docs/)
+
+**Thoughts:**
+- Mongoose is to help decrease the amount of boilerplate code you have to get up and running in MongoDB.
+
+**********
+
+##### Serialization (pt. 2) in basic blockchain programming
+
+**Today's Progress**:
+- Finished [Serialization (pt. 1)](http://davidederosa.com/basic-blockchain-programming/serialization-part-one/)
+- Finished [Serialization (pt. 2)](http://davidederosa.com/basic-blockchain-programming/serialization-part-two/index.html)
+
+**Thoughts:**
+- Studied the example on hashes (ex-hashes.c). Changed the code to get different hashes. I understand the example pretty well. The hardest part so far was learning to include the OpenSSL library during compilation. My C++ experience in Engin101 at U of M was brief. I learned how to include header files, but not external libraries. I got it to work with `gcc -I /usr/local/opt/openssl/include/ -L /usr/local/opt/openssl/lib/ ex-hashes.c -lcrypto`. SUUUUPER excited!!!
+
+- Learned about encoding variables of different lengths with `varints`
+
+**Link to work:**
+- [ex-hashes.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-hashes.c)
+- [ex-varints.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-varints.c)
+
+**********
+
+##### Letters to My Future Self (CSS)
+
+**Today's Progress**:
+- I have a book called Letters to My Future Self. I'm practicing styling with CSS by replicating the book in code.
+
+**Thoughts:**
+
+**Link to work:**
+- [Letters](https://github.com/thomasphillips3/letters/commit/4043edd6414f67354cd1a081f0de9ef730f5ce19)
+**********
+**********
+
+### Day 10: June 23, 2017
+##### Android - XML Drawables
+
+**Today's Progress**:
+- Read about 9-Patch images
+- Read about Mipmap images
+
+**Thoughts:** I'm on a plane, and don't have access to the file used to create the 9-patch png in my Beatbox app, but I get it.
+
+Mipmaps I still don't really get. Gotta check this out more later.
+
+**********
+##### C++
+
+**Today's Progress**:
+- Recursion
+
+**Thoughts:**
+I wrote a simple app to find the GCD, and remembered things about C++ I had forgotten. I initially wrote my gcd function below main(). I forgot if I want to do it this way, I have to declare the function above main. The other option is to just put main under gcd in the code.
+
+**********
+
+**Link to work:**
+- [Greatest Common Denominator](#)
+- [Animal Afforder](#)
+
+##### Bitcoin/ C
+
+**Today's Progress**: Read through some basic crypto stuff again. I understand how the code works, but am still having trouble linking to the `openssl` headers. I gotta figure this out.
+
+**Thoughts:**
+
+**Link to work:** [Repo](#)
+**********
+**********
+
+### Day 9: June 21, 2017
+##### Google C++ Course - Getting Started
+
+**Today's Progress**: Continued the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
+
+**Thoughts:**
+
+**Link to work:**
+- [Times table](https://gist.github.com/thomasphillips3/483bf68709a5985ae8f83e78f4e722c3)
+- [Guessing Game](https://gist.github.com/thomasphillips3/a3b2cedf2ceadbbdea14d5fac60ca636)
+**********
+**********
 
 ### Day 8: June 20, 2017
 ##### Google C++ Course - Getting Started
 
-**Today's Progress**: Completed the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
+**Today's Progress**: Started the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
 - Created a wrapper around g++ to compile code with stricter rules
 - [Formatting output with cout](http://www.cplusplus.com/reference/ostream/ostream/)
 
@@ -123,4 +227,5 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 **Thoughts:**
 
 **Link to work:** [Repo](#)
+**********
 **********
