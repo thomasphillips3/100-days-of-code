@@ -44,6 +44,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 **********
 
 ##### Letters to My Future Self (CSS)
+![Letters book](https://m.media-amazon.com/images/S/aplus-media/vc/cee89df3-5b81-4c21-b4fe-04c3095a5698.jpg)
 
 **Today's Progress**:
 - I have a book called Letters to My Future Self. I'm practicing styling with CSS by replicating the book in code.
@@ -78,8 +79,8 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 **********
 
 **Link to work:**
-- [Greatest Common Denominator](#)
-- [Animal Afforder](#)
+- [Greatest Common Denominator](https://gist.github.com/thomasphillips3/eb5ec5b50869334e92ba904b910d48b0)
+- [Animal Afforder](https://gist.github.com/thomasphillips3/07948a1935f79274e476f005b21a6893)
 
 ##### Bitcoin/ C
 
@@ -87,14 +88,16 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Thoughts:**
 
-**Link to work:** [Repo](#)
+**Link to work:**
+- [basic-blockchain-programming](https://github.com/thomasphillips3/basic-blockchain-programming)
 **********
 **********
 
 ### Day 9: June 21, 2017
 ##### Google C++ Course - Getting Started
 
-**Today's Progress**: Continued the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
+**Today's Progress**:
+- Continued the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
 
 **Thoughts:**
 
