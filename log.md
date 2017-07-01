@@ -1,4 +1,41 @@
 # Thomas Phillips 100 Days Of Code - Log
+
+### Day 14: June 30, 2017
+##### Letters to My Future Self (CSS)
+
+**Today's Progress**:
+Did most of the cover.
+
+**Thoughts:**
+CSS is tough.
+
+**Link to work:** [Cover design](https://github.com/thomasphillips3/letters/commit/9bf94c89490b16314dc23f999c719c6e2a1d3af8)
+**********
+**********
+
+### Day 13: June 29, 2017
+##### Android Intents and Tasks
+
+**Today's Progress**:
+-
+**Thoughts:**
+I'm using the canary version of Android Studio, so when I added the RecyclerView dependency, it added the version from the alpha library. I changed the version in the `build.gradle` file and re-synced, and everything is fine.
+
+**Link to work:** [Initial commit](https://github.com/thomasphillips3/NerdLauncher/commit/491319c8f528624e1589b681f1a2c1bd6b90019b)
+**********
+**********
+
+### Day 12: June 28, 2017
+##### Hashes in C
+
+**Today's Progress**:
+- I wanted to understand OpenSSL library better, so I played around with ex-hashes.c. I changed the example string to my name. I checked the hash by piping the ouput from `echo` to `openssl` as follows `echo -n "Thomas" | openssl sha256`.
+
+**Thoughts:**
+
+**Link to work:** [Repo](#)
+**********
+**********
 ### Day 11: June 26, 2017
 ##### Accessing Google APIs
 
