@@ -1,5 +1,17 @@
 # Thomas Phillips 100 Days Of Code - Log
 
+### Day 15: July 1, 2017
+##### Letters to My Future Self (CSS)
+
+**Today's Progress**:
+Did more of the cover.
+
+**Thoughts:**
+CSS is tough. Flexbox doesn't all the way make sense. I punched the floor, then figured shit out. 
+
+**Link to work:** [More design](https://github.com/thomasphillips3/letters/commit/40dba6ca2d3ff60c5d693a3b8928393d97b6581e)
+**********
+**********
 ### Day 14: June 30, 2017
 ##### Letters to My Future Self (CSS)
 
