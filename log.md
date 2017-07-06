@@ -1,5 +1,71 @@
 # Thomas Phillips 100 Days Of Code - Log
 
+### Day 19: July 5, 2017
+##### Python Tkinter
+
+**Today's Progress**:
+Got [Tkinter GUI Application Development Blueprints](https://www.amazon.com/Tkinter-GUI-Application-Development-Blueprints/dp/1785889737).
+
+**Thoughts:**
+I learned the difference between `from tkinter import *`, `import tkinter`, and `import tkinter as tk`. Hadn't really considered this distinction before, but it makes sense.
+
+The grid system will take some getting used to, but I think I see its merits already. Seems to be simple and powerful at the same time.
+
+**Link to work:** [Initial commit](https://github.com/thomasphillips3/blueprints/commit/34aa2e1b4e30f6af9d18e5a7f05ca8317a67f83c)
+**********
+**********
+
+### Day 18: July 4, 2017
+##### Chapter 23: Photo Gallery Networking
+
+**Today's Progress**:
+- Tried debugging why my RecyclerView won't populate with the parsed JSON data
+
+**Thoughts:**
+I set breakpoints and examined everywhere. I must have set up something wrong with the ViewHolder or Adapter.
+**********
+**********
+
+### Day 17: July 3, 2017
+##### Chapter 23: Photo Gallery Networking
+
+**Today's Progress**:
+- Parsed the JSON response from Flickr
+
+**Thoughts:**
+The parsed JSON won't display in my RecyclerView. I'm not sure why this is happening, but it makes me sad.
+**********
+**********
+
+### Day 16: July 2, 2017
+##### Android Intents and Tasks
+
+**Today's Progress**:
+Chapter 22: More About Intents and Tasks
+- Implemented a listener to launch activities in a new task when tapped
+- Added icon next to each app's entry in the list
+- Read [Android Processes and Threads](https://developer.android.com/guide/components/processes-and-threads.html)
+
+**Thoughts:**
+
+**Link to work:** [More About Intents and Tasks](https://github.com/thomasphillips3/NerdLauncher/commit/693729f8cf1fa86c2c1e47d159adb36ae9e58c77)
+**********
+
+##### Chapter 23: Photo Gallery Networking
+
+**Today's Progress**:
+- Created basic UI of PhotoGallery app
+- Wrote class to handle fetching data over the network in a background thread
+- Created Flickr API key
+- Read Flickr API. Specifically [flickr.photos.getRecent](https://www.flickr.com/services/api/flickr.photos.getRecent.html)
+
+**Thoughts:**
+I feel like this is the starting point of learning some real shit. Networking and tasks are two areas I haven't studied in-depth yet, and I'm very excited to learn and implement this further. I think this is where I can start to branch out and start brainstorming my own project ideas. There's a pretty good opportunity for creating clients to display web content in new, interesting ways.
+
+**Link to work:** [Repo](#)
+**********
+**********
+
 ### Day 15: July 1, 2017
 ##### Letters to My Future Self (CSS)
 
@@ -7,11 +73,12 @@
 Did more of the cover.
 
 **Thoughts:**
-CSS is tough. Flexbox doesn't all the way make sense. I punched the floor, then figured shit out. 
+CSS is tough. Flexbox doesn't all the way make sense. I punched the floor, then figured shit out.
 
 **Link to work:** [More design](https://github.com/thomasphillips3/letters/commit/40dba6ca2d3ff60c5d693a3b8928393d97b6581e)
 **********
 **********
+
 ### Day 14: June 30, 2017
 ##### Letters to My Future Self (CSS)
 
