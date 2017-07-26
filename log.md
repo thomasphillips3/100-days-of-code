@@ -1,5 +1,123 @@
 # Thomas Phillips 100 Days Of Code - Log
 
+### Day 26: July 25, 2017
+##### Android NPE
+
+**Today's Progress**  
+- Fixed an NPE that was giving me the blues.  
+- Used Picasso library to handle image downloads
+
+**Link to work:**   
+- [Fixed NPE](https://github.com/thomasphillips3/PhotoGallery/commit/2a89b1576609d7130afcd81e653ff4dbbff5635b)
+- [Picasso](https://github.com/thomasphillips3/PhotoGallery/pull/2)
+**********
+**********
+
+### Day 25: July 23, 2017
+##### ADB Guide
+
+**Today's Progress**  
+- Read ADB Guide
+
+**Thoughts:**   
+Lots of stuff in here I glossed over previously, or just didn't know. This will help me write scripts for installing APKs and pulling logs as necessary.
+
+### Day 24: July 22, 2017
+##### C++ Tutorials
+
+**Today's Progress**  
+[Google C++ Getting Started](https://developers.google.com/edu/c++/getting-started)
+- Examples 7-9
+- Exercises 1-2
+
+**Link to work:**   
+- [shoeStore.cpp](https://gist.github.com/thomasphillips3/3320f9d7119730c350da6b8228284f8d)
+- [finalGrade.cpp](https://gist.github.com/thomasphillips3/c0d621d9eb8a1c37d3927b219bb501c0)
+- [crickets.cpp](https://gist.github.com/thomasphillips3/2411ab47dbcaec8cf701eb295468fbbd)
+
+**********
+**********
+
+### Day 23: July 17, 2017
+##### Android: Handlers
+
+**Today's Progress**:
+- Created HandlerThread to download images in the background
+- Implemented handleMessage to download and decode the bitmap file from the target's URL
+- Pass the downloaded bitmap to the main thread to display
+
+**Thoughts:**  
+I think I get it.
+
+**Link to work:**   
+[Assembling a background thread](https://github.com/thomasphillips3/PhotoGallery/commit/a5722f54291cf37ea006b5fdcb17e1df83228e15)  
+
+**********
+**********
+
+### Day 22: July 15, 2017
+##### Debugging Android
+
+**Thoughts:**  
+I noticed my local placeholder image wasn't showing. I had only ever tested this code while in airplane mode, and suspect that the lack of internet connection is causing the problem. Here's what I think is happening
+- My `AsyncTask` (`FlickrFetcher.fetchitems()`) fails to download, and throws an exception
+- Because of this failure, `FetchItemsTask.onPostExecute(...)` doesn't execute
+- `setupAdapter()` is never called
+- `mPhotoRecyclerView.setAdapter(...)` is also never called, so the RecyclerView's adapter is never set
+- `PhotoAdapter` constructor is not called, so the lifecycle method `onCreateViewHolder(...)` is never called, so the layout is never inflated.
+
+Basically, if there's no internet connection, the user won't see anything right now. This will probably be addressed later in the book.
+
+**********
+
+##### Android Background Thread
+
+**Today's Progress**:
+Create a background thread to handle the longer-running background process of downloading images. AsyncTask isn't meant for long-running processes.
+
+**Thoughts:**
+
+**Link to work:** [Repo](#)
+**********
+**********
+
+### Day 21: July 9, 2017
+##### Android Paging Challenge
+
+**Today's Progress**:
+- Implemented OnVerticalScrollListener from [this SO question](https://stackoverflow.com/a/30410605/270847).
+
+**Thoughts:**
+I'm not sure if `OnVerticalScrollListener` is implemented correctly. I put a log message in `onScrolledToBottom()`, but it never fired. I'm not sure if this is because I'm on a plane and can't fetch data from Flickr, but I saved it under a new branch so I can continue working on the next chapter and come back to this later.
+
+**Link to work:** [Repo](#)
+**********
+**********
+
+### Day 20: July 6, 2017
+##### Python Tkinter
+
+**Today's Progress**:
+- Created an app to issue ADB commands from a Tkinter interface
+
+**Thoughts:**
+I learned about callbacks and lambdas in Python. Trying to stay focused on completing one task completely before moving on to something else. I notice that if I find a new way of doing something while I'm in the middle of it, I often get distracted by the options instead of just finishing the way I started.
+
+In Python, I have to define a function above where it's used. Java isn't as picky.
+
+**Link to work:** [Repo](#)
+**********
+
+##### GSON
+
+**Today's Progress**: Converted the parseItems method to use [GSON](https://github.com/google/gson) instead of parsing manually. I read [this forum](https://forums.bignerdranch.com/t/using-gson/7849/5?u=thomasphillips3) to help.
+
+**Thoughts:**
+
+**Link to work:** [GSON](https://github.com/thomasphillips3/PhotoGallery/commit/29d7f7c62636237dabc4e9cab75cf5ddce79d8a4)
+**********
+**********
+
 ### Day 19: July 5, 2017
 ##### Python Tkinter
 
@@ -341,10 +459,11 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 ### Day: Date
 ##### Title/ Project
 
-**Today's Progress**:
+**Today's Progress**  
 
-**Thoughts:**
+**Thoughts:**  
 
-**Link to work:** [Repo](#)
+**Link to work:**   
+[Repo](#)
 **********
 **********
