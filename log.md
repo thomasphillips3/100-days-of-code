@@ -9,6 +9,9 @@ It works, but it's kinda fucked up tho. Results aren't cleared, and they cycle a
 
 **Links**
 - [Search](https://github.com/thomasphillips3/PhotoGallery/commit/23148b35526879a62f1bb4e834501e0769cb0ec3)
+
+**********
+**********
 ### Day 31: July 31, 2017
 ##### Android Services
 
