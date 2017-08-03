@@ -1,4 +1,82 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 32: August 2, 2017
+##### Android services
+**Today's Progress**  
+Implemented a background service to update the UI with search results.
+
+**Thoughts**  
+It works, but it's kinda fucked up tho. Results aren't cleared, and they cycle a few times/ second. So if I search for "dogs", "butts", "rihanna", and "kangaroos", I see each of those images, continuously cycling through each cell of the grid. It's like the weirdest brainwash video ever. I'ma go to sleep now.  
+
+**Links**
+- [Search](https://github.com/thomasphillips3/PhotoGallery/commit/23148b35526879a62f1bb4e834501e0769cb0ec3)
+### Day 31: July 31, 2017
+##### Android Services
+
+**Today's Progress**  
+Created the `PollService` `IntentService`.
+
+**Thoughts**  
+I think learning about services will help me understand activities and fragments better.
+
+**Link to work:**  
+[Created `PollService`](https://github.com/thomasphillips3/PhotoGallery/commit/6e4e319c7eafe8c6657ed5868d2a20deb4506d52)
+**********
+**********
+
+
+### Day 30: July 30, 2017
+##### Android SearchView
+
+**Today's Progress**  
+Finished Chapter 23 of Big Nerd Ranch Android book on using the Android **`SearchView`**.   
+
+**Thoughts:**  
+This was pretty straightforward. Nothing too surprising.
+
+**********
+**********
+
+### Day 29: July 29, 2017
+##### Python UI
+
+**Today's Progress**  
+
+**Thoughts:**  
+
+**Link to work:**   
+[!](#)
+**********
+**********
+
+### Day 28: July 27, 2017
+##### HockeyApp and TKinter
+
+**Today's Progress:**  
+- I found out how to download the latest APK via the [HockeyApp Python API](http://hockeyapp.readthedocs.io/en/latest/index.html
+- The URL I got from the JSON response redirects to another page so I had to figure out How can I get the final redirect URL when using `urllib2.urlopen`
+- After I built the download URL from the redirect URL, I used `urllib.URLopener().retrieve` to download the APK.
+- [Python Tutorial 5: Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+- [Python Tutorial 9: Classes](https://docs.python.org/3/tutorial/classes.html)
+
+**Thoughts:**
+I'm super excited to have gotten the HockeyApp API to download an APK! I found reading through the code was more helpful than the documentation this time around.
+**********
+**********
+
+### Day 27: July 26, 2017
+##### Python Classes
+
+**Today's Progress**  
+- Learned how to use classes to make Python program object-oriented.
+
+**Thoughts:**  
+Python gives you lots of tools to do things differently. Lots of room for error, but I can see its power if used correctly.  
+
+**Link to work:**   
+[Repo](#)
+**********
+**********
+
 
 ### Day 26: July 25, 2017
 ##### Android NPE
@@ -21,6 +99,8 @@
 
 **Thoughts:**   
 Lots of stuff in here I glossed over previously, or just didn't know. This will help me write scripts for installing APKs and pulling logs as necessary.
+**********
+**********
 
 ### Day 24: July 22, 2017
 ##### C++ Tutorials
