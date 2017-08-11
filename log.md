@@ -1,4 +1,44 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 35: August 10, 2017
+##### Packaging Python
+**Today's Progress**  
+I spent a lot of time trying to figure out how to build a standalone Mac Python app.  
+
+##### Voltage Divider  
+I built a [voltage divider](https://en.wikipedia.org/wiki/Voltage_divider) today too. That was fun.
+
+### Day 34: August 4, 2017
+##### Python on a Plane
+
+**Today's Progress**  
+Built a temperature converter in Python using Tkinter for the GUI.
+
+**Thoughts:**  
+Read this book Programming the Raspberry Pi: Getting Started with Python (Electronics) on my Kindle. I'm glad that it shows how to use `grid` instad of just `pack`. Also glad that it shows how to use Tkinter with classes.
+
+**Link to work:**   
+[Repo](#)
+**********
+**********
+
+### Day 33: August 3, 2017
+##### Python and Arduino on Pi
+
+**Today's Progress**  
+- Set up Arduino IDE on Raspberry Pi
+- Wrote bytes to the Arduino serial console
+- Read from the serial console with Python script
+
+
+**Thoughts:**  
+I've been wanting to do this for a while. Finally getting around to playing around with serial communication.
+
+**Link to work:**   
+[Repo](#)
+**********
+**********
+
+
 ### Day 32: August 2, 2017
 ##### Android services
 **Today's Progress**  
