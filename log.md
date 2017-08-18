@@ -1,4 +1,42 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 37: August 17, 2017
+##### Android Background Services  
+**Today's Progress**  
+Made it through another couple sections of **Chapter 26: Background Services** in the BigNerdRanch Android Programming Book.  
+
+**Thoughts**  
+I don't know why, but every cell in the `RecyclerView` keeps refreshing every time a new image is downloaded. I think I'm doing something wrong with `GSON`.
+
+**Link to Work:**  
+- [Implemented search](https://github.com/thomasphillips3/PhotoGallery/commit/d4d8efb41e4676add1892b9ce79dd614c59d34e0)
+
+**********
+
+##### Arduino Interrupts  
+**Today's Progress**  
+- Read about interrupts in [Programming Arduino Next Steps](https://smile.amazon.com/Programming-Arduino-Next-Steps-Electronics-ebook/dp/B00EHIEJYY/ref=sr_1_1_twi_kin_2?ie=UTF8&qid=1503072377&sr=8-1&keywords=arduino+next+steps)  
+- [`attachInterrupt()`](https://www.arduino.cc/en/Reference/AttachInterrupt)  
+
+**Thoughts**  
+I was on a plane, so didn't get to build the hardware to go with this sketch, but I get the idea. I'm still trying to understand the significance of having dedicated interrupt pins vs using a regular GPIO pin as an interrupt.
+
+**Link to Work:**
+- [Arduino Interrupts](https://github.com/thomasphillips3/Button_Interrupt)  
+
+**********
+**********
+
+### Day 36: August 13, 2017
+##### Android
+**Today's Progress**  
+Read [What is 'Context' on Android?](https://stackoverflow.com/questions/3572463/what-is-context-on-android)  
+
+**Thoughts**  
+Today I just felt like reading up on basics and not doing any code. This was very helpful because I've never read much about what Context is, I've just used it. Now that I have some context on Context...I feel uh...better.
+
+**********
+**********
+
 ### Day 35: August 10, 2017
 ##### Packaging Python
 **Today's Progress**  
@@ -6,6 +44,9 @@ I spent a lot of time trying to figure out how to build a standalone Mac Python 
 
 ##### Voltage Divider  
 I built a [voltage divider](https://en.wikipedia.org/wiki/Voltage_divider) today too. That was fun.
+
+**********
+**********
 
 ### Day 34: August 4, 2017
 ##### Python on a Plane
