@@ -1,4 +1,40 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 39: August 5, 2017
+##### Park Players Website
+
+**Today's Progress**  
+Finished first drafts of Home, Auditions, Shows, and Contact sections. It's at a point now where we COULD launch it. I suppose this is a MVP.  
+
+**Thoughts:**  
+Eventually I want to set up deploying to AWS S3 Bucket directly from Github. Right now, I'm pushing my changes to Github, and manually uploading to S3 afterward.  
+
+**Link to work:**   
+[Ready to launch](https://github.com/thomasphillips3/parkplayers/commit/d4ce99390b847ebd9280a24e050926353cdf14cd)
+**********
+**********
+
+### Day 38: September 4, 2017
+##### Park Players Website
+
+**Today's Progress**   
+Been working on this website for a few weeks and haven't updated progress here.
+
+**Thoughts:**  
+- I'm getting better at determining discrete tasks so I can estimate how long it'll take me to complete.
+- I am learning AWS by implementing what I understand so far. Right now I'm only using S3, but as the website grows, maybe I'll have the opportunity to implement other services. I definitely want to get my AWS certifiation this year.  
+
+**********
+
+##### Developing iOS Apps with Swift
+**Today's Progress**
+- Lecture 3: More Swift and the Foundation Framework  
+- Read [Swift API Guidelines](https://swift.org/documentation/api-design-guidelines/)
+- Read [The Swift Programming Language](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097)
+
+**Thoughts:**
+- Optionals are really strange. I think I had the hardest time understanding this.
+- Tuples are new to me, but pretty easy to understand.
+
 ### Day 37: August 17, 2017
 ##### Android Background Services  
 **Today's Progress**  
