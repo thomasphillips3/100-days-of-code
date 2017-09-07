@@ -1,4 +1,22 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 40: August 6, 2017
+##### iOS Calculator
+
+**Today's Progress**  
+##### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
+[Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
+1. Get the Calculator working as demonstrated in lectures 1 and 2.
+2. Your Calculator already works with floating point numbers (e.g. if you touch 3 ÷ 4 =, it will properly show 0.75), however, there is no way for the user to enter a floating point number directly. Fix this by allowing legal floating point numbers to be entered (e.g. “192.168.0.1” is not a legal floating point number!). You will need to have a “.” button in your calculator. Don’t worry too much about precision or significant digits in this assignment (doing so is Extra Credit).
+3. Add some more operations buttons to your calculator such that it has at least a dozen operations total (it can have even more if you like). You can choose whatever operations appeal to you. The buttons must arrange themselves nicely in portrait and landscape modes on all iPhone 6’s and 7’s.
+4. Use color to make your UI look nice. At the very least, your operations buttons must be a different color than your keypad buttons, but otherwise you can use color in whatever way you think looks nice.  
+
+**Link to work:**   
+* [Allow user to enter floating point values](https://github.com/thomasphillips3/Calculator/commit/d880e7ef69af012d33f5a1b25bf6639567203970)
+* [Added button to clear input](https://github.com/thomasphillips3/Calculator/commit/5f619120ec62e50253ee4f9404e9cd173d20a6ac)
+* [Added some colors](https://github.com/thomasphillips3/Calculator/commit/591315bd63a35b2586754a1285b4858d0a46e579)
+**********
+**********
+
 ### Day 39: August 5, 2017
 ##### Park Players Website
 
