@@ -1,5 +1,80 @@
 # Thomas Phillips 100 Days Of Code - Log
-### Day 40: August 6, 2017
+### Day 45: September 11, 2017
+##### Raspberry Pi
+
+**Today's Progress**  
+- Read up to Chapter 7: Basic Input and Output of [Getting Started with Raspberry Pi](https://media.digikey.com/pdf/Data%20Sheets/O'Reilly_PDFs/Getting_Started_With_Raspberry_Pi_3E_9781680452464.pdf)
+- Read about [LightShow Pi](http://lightshowpi.org/)
+- Steps 1-7 of LightShow Pi [hardware setup](https://docs.google.com/document/d/1x97JIu5xVInZMutTNeaHlnQuyoLHjf3h-ugIo64pGfI/edit)
+- Added SSID to `/etc/network/interfaces`
+- Upgraded Raspbian
+- [Installed desktop](http://lightshowpi.org/)
+
+The ribbon cable to my breakout board didn't fit on the Raspberry Pi 3, so I used the older one. I hadn't powered this one on in a while, so I had to add my new SSID to the network interfaces file. Once I had network, I installed `lightdm` and upgraded Raspbian to the latest version.
+
+### Day 44: September 10, 2017
+##### iOS Calculator
+
+**Today's Progress**  
+
+**Thoughts:**  
+
+**Link to work:**   
+[Repo](#)
+**********
+**********
+
+### Day 43: September 9, 2017
+##### iOS Calculator
+
+**Today's Progress**  
+##### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
+[Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
+6. Add a String property to CalculatorBrain called `description` which returns a description of the sequence of operands and operations that led to the value returned by result (or the result so far if `resultIsPending`). The character `=` (the equals sign) should never appear in this description, nor should `...` (ellipses).
+
+**Thoughts:**  
+I don't get it. I just found [this person's solution](https://github.com/m2mtech/calculator-2017/releases/tag/v1.0.6) and followed along.
+
+**Link to work:**   
+[`description`](https://github.com/thomasphillips3/Calculator/commit/10f16f16e1fcdc6496c10fadabda760f7c455237)
+**********
+**********
+
+### Day 42: September 8, 2017
+##### Java 8 Essential Training
+
+**Today's Progress**  
+##### Java Console Calculator
+Created a [console calculator](https://www.linkedin.com/learning/java-8-essential-training/challenge-creating-a-simple-calculator-application?u=2011276) in Java.  
+
+**Thoughts:**  
+This project was pretty simple. I'm taking this [Java 8 Essential Training](https://www.linkedin.com/learning/java-8-essential-training?u=2011276) on LinkedIn Learning to fill in some of my Java understanding. It's redundant in some places, but worth it for some of the things I've missed in my self-taught coding education.
+
+- Debugging - I didn't know how to debug in IntelliJ IDEA. Now I know how to use the debugger - setting breakpoints and watching variables.
+
+**Link to work:**   
+- [Java Calculator](https://github.com/thomasphillips3/Java-Calculator)
+- [Java 8 Essential Training](https://www.linkedin.com/learning/java-8-essential-training?u=2011276)
+**********
+**********
+
+### Day 41: September 7, 2017
+##### iOS Calculator
+
+**Today's Progress**  
+##### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
+[Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
+5. Add a Bool property to your CalculatorBrain called resultIsPending which returns whether there is a binary operation pending.
+
+**Thoughts:**  
+I did this a different way before I found the right way lol.  
+
+**Link to work:**   
+[`resultIsPending`](https://github.com/thomasphillips3/Calculator/commit/f054c269db67a6a613411f2d42b3b56624d9c387)
+**********
+**********
+
+### Day 40: September 6, 2017
 ##### iOS Calculator
 
 **Today's Progress**  
@@ -17,7 +92,7 @@
 **********
 **********
 
-### Day 39: August 5, 2017
+### Day 39: September 5, 2017
 ##### Park Players Website
 
 **Today's Progress**  
