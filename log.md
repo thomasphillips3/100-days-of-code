@@ -1,4 +1,18 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 46: September 14, 2017
+##### Espresso Tests
+
+**Today's Progress**  
+Recorded a simple espresso test to validate the UI elements of the main activity.
+
+**Thoughts:**  
+Espresso recorder makes it easy to create tests, but there's still a lot of work to create an entire framework around it. Learning that is on the agenda.
+
+**Link to work:**   
+[Recorded a simple espresso test ](https://github.com/thomasphillips3/PhotoGallery/commit/d28977950445b5d2846516499e7df34affda6835)
+**********
+**********
+
 ### Day 45: September 11, 2017
 ##### Raspberry Pi
 
