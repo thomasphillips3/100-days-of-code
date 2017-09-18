@@ -1,4 +1,19 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 47: September 17, 2017
+##### Javascript Tic Tac Toe
+
+**Today's Progress**  
+- Went through a step-by-step tutorial for building a Tic Tac Toe game with an unbeatable AI, using JavaScript and the Minimax Algorithm (51 minute watch): https://www.youtube.com/watch?v=P2TcQ3h0ipQ
+- Read about [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) in JS
+- Read [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b)
+
+**Thoughts:**  
+
+**Link to work:**   
+[Tic Tac Toe](https://github.com/thomasphillips3/tictactoe)
+**********
+**********
+
 ### Day 46: September 14, 2017
 ##### Espresso Tests
 
