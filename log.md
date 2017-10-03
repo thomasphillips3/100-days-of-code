@@ -1,4 +1,75 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 53: October 1, 2017
+##### Park Players Website
+
+**Today's Progress**
+Finished the blog section - ***Our Town*** and ***Hairspray***
+
+**Link to work**
+- [Our Town](https://github.com/thomasphillips3/parkplayers/commit/08a30b507623294f484d4cbe4b63ba847ad80529)
+- [Hairspray](https://github.com/thomasphillips3/parkplayers/commit/d6a15c9b27cc90d6aa2c26227f179caffa7752b6)
+**********
+**********
+
+
+### Day 52: September 26, 2007
+##### Park Players Website
+
+**Today's Progress**  
+Worked on the blog section. I was able to complete 2 shows - ***Much Ado About Nothing*** and ***Urinetown***  
+
+**Link to work**   
+- [Much Ado About Nothing](https://github.com/thomasphillips3/parkplayers/commit/f2aa76b14b26c7c6dcf4c8693939e0f5f7d37316)
+- [Urinetown](https://github.com/thomasphillips3/parkplayers/commit/bf6e14898949dae67ca7a241ed6938b358d77de4)
+**********
+**********
+
+### Day 51: September 25, 2007
+##### Park Players Website
+
+**Today's Progress**  
+Worked on the blog section. I was able to complete 2 shows - ***Guys and Dolls*** and ***A Murder is Announced***  
+
+**Link to work**   
+- [Guys and Dolls](https://github.com/thomasphillips3/parkplayers/commit/b58c476cc15a1fddae127ff260e9f58e0668d09d)
+- [A Murder is Announced](https://github.com/thomasphillips3/parkplayers/commit/3f2f923bb473129af461f8890c76de48b586da21)
+**********
+**********
+
+### Day 50: September 24, 2017
+##### Title/ Project
+
+**Today's Progress**  
+- Read about [Android partitions](https://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/)  
+
+**********
+**********
+
+### Day 49: September 23, 2017
+##### Minimax Algorithm
+
+**Today's Progress**
+- Read about [Minimax Algorithm](http://neverstopbuilding.com/minimax) I implemented in the Tic Tac Toe game.
+**Thoughts:**
+Definitely gonna have to revisit this; I don't get it. the author warned me I might have to read it a few times to understand. He was right lol.
+
+**********
+**********
+
+### Day 48: September 21, 2017
+##### Android Big Nerd Ranch
+
+**Today's Progress**  
+Chapter 29: Custom Views and Touch Events.
+
+**Thoughts:**  
+ I skipped a couple chapters from the PhotoGallery app. I kinda got tired of it. Will revisit soon tho.
+
+**Link to work**   
+[Repo](#)
+**********
+**********
+
 ### Day 47: September 17, 2017
 ##### Javascript Tic Tac Toe
 
@@ -8,8 +79,9 @@
 - Read [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b)
 
 **Thoughts:**  
+I didn't get into the depths of minimax today. I know it uses recursion somehow. I will definitely read [this post](http://neverstopbuilding.com/minimax) tomorrow.  
 
-**Link to work:**   
+**Link to work**   
 [Tic Tac Toe](https://github.com/thomasphillips3/tictactoe)
 **********
 **********
@@ -23,7 +95,7 @@ Recorded a simple espresso test to validate the UI elements of the main activity
 **Thoughts:**  
 Espresso recorder makes it easy to create tests, but there's still a lot of work to create an entire framework around it. Learning that is on the agenda.
 
-**Link to work:**   
+**Link to work**   
 [Recorded a simple espresso test ](https://github.com/thomasphillips3/PhotoGallery/commit/d28977950445b5d2846516499e7df34affda6835)
 **********
 **********
@@ -48,7 +120,7 @@ The ribbon cable to my breakout board didn't fit on the Raspberry Pi 3, so I use
 
 **Thoughts:**  
 
-**Link to work:**   
+**Link to work**   
 [Repo](#)
 **********
 **********
@@ -64,7 +136,7 @@ The ribbon cable to my breakout board didn't fit on the Raspberry Pi 3, so I use
 **Thoughts:**  
 I don't get it. I just found [this person's solution](https://github.com/m2mtech/calculator-2017/releases/tag/v1.0.6) and followed along.
 
-**Link to work:**   
+**Link to work**   
 [`description`](https://github.com/thomasphillips3/Calculator/commit/10f16f16e1fcdc6496c10fadabda760f7c455237)
 **********
 **********
@@ -81,7 +153,7 @@ This project was pretty simple. I'm taking this [Java 8 Essential Training](http
 
 - Debugging - I didn't know how to debug in IntelliJ IDEA. Now I know how to use the debugger - setting breakpoints and watching variables.
 
-**Link to work:**   
+**Link to work**   
 - [Java Calculator](https://github.com/thomasphillips3/Java-Calculator)
 - [Java 8 Essential Training](https://www.linkedin.com/learning/java-8-essential-training?u=2011276)
 **********
@@ -98,7 +170,7 @@ This project was pretty simple. I'm taking this [Java 8 Essential Training](http
 **Thoughts:**  
 I did this a different way before I found the right way lol.  
 
-**Link to work:**   
+**Link to work**   
 [`resultIsPending`](https://github.com/thomasphillips3/Calculator/commit/f054c269db67a6a613411f2d42b3b56624d9c387)
 **********
 **********
@@ -114,7 +186,7 @@ I did this a different way before I found the right way lol.
 3. Add some more operations buttons to your calculator such that it has at least a dozen operations total (it can have even more if you like). You can choose whatever operations appeal to you. The buttons must arrange themselves nicely in portrait and landscape modes on all iPhone 6’s and 7’s.
 4. Use color to make your UI look nice. At the very least, your operations buttons must be a different color than your keypad buttons, but otherwise you can use color in whatever way you think looks nice.  
 
-**Link to work:**   
+**Link to work**   
 * [Allow user to enter floating point values](https://github.com/thomasphillips3/Calculator/commit/d880e7ef69af012d33f5a1b25bf6639567203970)
 * [Added button to clear input](https://github.com/thomasphillips3/Calculator/commit/5f619120ec62e50253ee4f9404e9cd173d20a6ac)
 * [Added some colors](https://github.com/thomasphillips3/Calculator/commit/591315bd63a35b2586754a1285b4858d0a46e579)
@@ -130,7 +202,7 @@ Finished first drafts of Home, Auditions, Shows, and Contact sections. It's at a
 **Thoughts:**  
 Eventually I want to set up deploying to AWS S3 Bucket directly from Github. Right now, I'm pushing my changes to Github, and manually uploading to S3 afterward.  
 
-**Link to work:**   
+**Link to work**   
 [Ready to launch](https://github.com/thomasphillips3/parkplayers/commit/d4ce99390b847ebd9280a24e050926353cdf14cd)
 **********
 **********
@@ -215,7 +287,7 @@ Built a temperature converter in Python using Tkinter for the GUI.
 **Thoughts:**  
 Read this book Programming the Raspberry Pi: Getting Started with Python (Electronics) on my Kindle. I'm glad that it shows how to use `grid` instad of just `pack`. Also glad that it shows how to use Tkinter with classes.
 
-**Link to work:**   
+**Link to work**   
 [Repo](#)
 **********
 **********
@@ -232,7 +304,7 @@ Read this book Programming the Raspberry Pi: Getting Started with Python (Electr
 **Thoughts:**  
 I've been wanting to do this for a while. Finally getting around to playing around with serial communication.
 
-**Link to work:**   
+**Link to work**   
 [Repo](#)
 **********
 **********
@@ -260,7 +332,7 @@ Created the `PollService` `IntentService`.
 **Thoughts**  
 I think learning about services will help me understand activities and fragments better.
 
-**Link to work:**  
+**Link to work**  
 [Created `PollService`](https://github.com/thomasphillips3/PhotoGallery/commit/6e4e319c7eafe8c6657ed5868d2a20deb4506d52)
 **********
 **********
@@ -285,7 +357,7 @@ This was pretty straightforward. Nothing too surprising.
 
 **Thoughts:**  
 
-**Link to work:**   
+**Link to work**   
 [!](#)
 **********
 **********
@@ -314,7 +386,7 @@ I'm super excited to have gotten the HockeyApp API to download an APK! I found r
 **Thoughts:**  
 Python gives you lots of tools to do things differently. Lots of room for error, but I can see its power if used correctly.  
 
-**Link to work:**   
+**Link to work**   
 [Repo](#)
 **********
 **********
@@ -327,7 +399,7 @@ Python gives you lots of tools to do things differently. Lots of room for error,
 - Fixed an NPE that was giving me the blues.  
 - Used Picasso library to handle image downloads
 
-**Link to work:**   
+**Link to work**   
 - [Fixed NPE](https://github.com/thomasphillips3/PhotoGallery/commit/2a89b1576609d7130afcd81e653ff4dbbff5635b)
 - [Picasso](https://github.com/thomasphillips3/PhotoGallery/pull/2)
 **********
@@ -352,7 +424,7 @@ Lots of stuff in here I glossed over previously, or just didn't know. This will 
 - Examples 7-9
 - Exercises 1-2
 
-**Link to work:**   
+**Link to work**   
 - [shoeStore.cpp](https://gist.github.com/thomasphillips3/3320f9d7119730c350da6b8228284f8d)
 - [finalGrade.cpp](https://gist.github.com/thomasphillips3/c0d621d9eb8a1c37d3927b219bb501c0)
 - [crickets.cpp](https://gist.github.com/thomasphillips3/2411ab47dbcaec8cf701eb295468fbbd)
@@ -371,7 +443,7 @@ Lots of stuff in here I glossed over previously, or just didn't know. This will 
 **Thoughts:**  
 I think I get it.
 
-**Link to work:**   
+**Link to work**   
 [Assembling a background thread](https://github.com/thomasphillips3/PhotoGallery/commit/a5722f54291cf37ea006b5fdcb17e1df83228e15)  
 
 **********
@@ -399,7 +471,7 @@ Create a background thread to handle the longer-running background process of do
 
 **Thoughts:**
 
-**Link to work:** [Repo](#)
+**Link to work** [Repo](#)
 **********
 **********
 
@@ -412,7 +484,7 @@ Create a background thread to handle the longer-running background process of do
 **Thoughts:**
 I'm not sure if `OnVerticalScrollListener` is implemented correctly. I put a log message in `onScrolledToBottom()`, but it never fired. I'm not sure if this is because I'm on a plane and can't fetch data from Flickr, but I saved it under a new branch so I can continue working on the next chapter and come back to this later.
 
-**Link to work:** [Repo](#)
+**Link to work** [Repo](#)
 **********
 **********
 
@@ -427,7 +499,7 @@ I learned about callbacks and lambdas in Python. Trying to stay focused on compl
 
 In Python, I have to define a function above where it's used. Java isn't as picky.
 
-**Link to work:** [Repo](#)
+**Link to work** [Repo](#)
 **********
 
 ##### GSON
@@ -436,7 +508,7 @@ In Python, I have to define a function above where it's used. Java isn't as pick
 
 **Thoughts:**
 
-**Link to work:** [GSON](https://github.com/thomasphillips3/PhotoGallery/commit/29d7f7c62636237dabc4e9cab75cf5ddce79d8a4)
+**Link to work** [GSON](https://github.com/thomasphillips3/PhotoGallery/commit/29d7f7c62636237dabc4e9cab75cf5ddce79d8a4)
 **********
 **********
 
@@ -451,7 +523,7 @@ I learned the difference between `from tkinter import *`, `import tkinter`, and 
 
 The grid system will take some getting used to, but I think I see its merits already. Seems to be simple and powerful at the same time.
 
-**Link to work:** [Initial commit](https://github.com/thomasphillips3/blueprints/commit/34aa2e1b4e30f6af9d18e5a7f05ca8317a67f83c)
+**Link to work** [Initial commit](https://github.com/thomasphillips3/blueprints/commit/34aa2e1b4e30f6af9d18e5a7f05ca8317a67f83c)
 **********
 **********
 
@@ -488,7 +560,7 @@ Chapter 22: More About Intents and Tasks
 
 **Thoughts:**
 
-**Link to work:** [More About Intents and Tasks](https://github.com/thomasphillips3/NerdLauncher/commit/693729f8cf1fa86c2c1e47d159adb36ae9e58c77)
+**Link to work** [More About Intents and Tasks](https://github.com/thomasphillips3/NerdLauncher/commit/693729f8cf1fa86c2c1e47d159adb36ae9e58c77)
 **********
 
 ##### Chapter 23: Photo Gallery Networking
@@ -502,7 +574,7 @@ Chapter 22: More About Intents and Tasks
 **Thoughts:**
 I feel like this is the starting point of learning some real shit. Networking and tasks are two areas I haven't studied in-depth yet, and I'm very excited to learn and implement this further. I think this is where I can start to branch out and start brainstorming my own project ideas. There's a pretty good opportunity for creating clients to display web content in new, interesting ways.
 
-**Link to work:** [Repo](#)
+**Link to work** [Repo](#)
 **********
 **********
 
@@ -515,7 +587,7 @@ Did more of the cover.
 **Thoughts:**
 CSS is tough. Flexbox doesn't all the way make sense. I punched the floor, then figured shit out.
 
-**Link to work:** [More design](https://github.com/thomasphillips3/letters/commit/40dba6ca2d3ff60c5d693a3b8928393d97b6581e)
+**Link to work** [More design](https://github.com/thomasphillips3/letters/commit/40dba6ca2d3ff60c5d693a3b8928393d97b6581e)
 **********
 **********
 
@@ -528,7 +600,7 @@ Did most of the cover.
 **Thoughts:**
 CSS is tough.
 
-**Link to work:** [Cover design](https://github.com/thomasphillips3/letters/commit/9bf94c89490b16314dc23f999c719c6e2a1d3af8)
+**Link to work** [Cover design](https://github.com/thomasphillips3/letters/commit/9bf94c89490b16314dc23f999c719c6e2a1d3af8)
 **********
 **********
 
@@ -540,7 +612,7 @@ CSS is tough.
 **Thoughts:**
 I'm using the canary version of Android Studio, so when I added the RecyclerView dependency, it added the version from the alpha library. I changed the version in the `build.gradle` file and re-synced, and everything is fine.
 
-**Link to work:** [Initial commit](https://github.com/thomasphillips3/NerdLauncher/commit/491319c8f528624e1589b681f1a2c1bd6b90019b)
+**Link to work** [Initial commit](https://github.com/thomasphillips3/NerdLauncher/commit/491319c8f528624e1589b681f1a2c1bd6b90019b)
 **********
 **********
 
@@ -552,7 +624,7 @@ I'm using the canary version of Android Studio, so when I added the RecyclerView
 
 **Thoughts:**
 
-**Link to work:** [Repo](#)
+**Link to work** [Repo](#)
 **********
 **********
 ### Day 11: June 26, 2017
@@ -593,7 +665,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 
 - Learned about encoding variables of different lengths with `varints`
 
-**Link to work:**
+**Link to work**
 - [ex-hashes.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-hashes.c)
 - [ex-varints.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-varints.c)
 
@@ -607,7 +679,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 
 **Thoughts:**
 
-**Link to work:**
+**Link to work**
 - [Letters](https://github.com/thomasphillips3/letters/commit/4043edd6414f67354cd1a081f0de9ef730f5ce19)
 **********
 **********
@@ -634,7 +706,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **********
 
-**Link to work:**
+**Link to work**
 - [Greatest Common Denominator](https://gist.github.com/thomasphillips3/eb5ec5b50869334e92ba904b910d48b0)
 - [Animal Afforder](https://gist.github.com/thomasphillips3/07948a1935f79274e476f005b21a6893)
 
@@ -644,7 +716,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Thoughts:**
 
-**Link to work:**
+**Link to work**
 - [basic-blockchain-programming](https://github.com/thomasphillips3/basic-blockchain-programming)
 **********
 **********
@@ -657,7 +729,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Thoughts:**
 
-**Link to work:**
+**Link to work**
 - [Times table](https://gist.github.com/thomasphillips3/483bf68709a5985ae8f83e78f4e722c3)
 - [Guessing Game](https://gist.github.com/thomasphillips3/a3b2cedf2ceadbbdea14d5fac60ca636)
 **********
@@ -684,7 +756,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Thoughts:** Swift and iOS do things differently than Java and Android. It's a challenge getting used to both at the same time, but I think it's helping me grasp the overall concepts better. Seeing MVC in both settings is definitely helping me understand that better.
 
-**Link to work:**
+**Link to work**
 - [Built out the Controller](https://github.com/thomasphillips3/Calculator/commit/81a6bbf2d4b209c72da5bacb5a245b292a4b5743)
 - [Made layout work across all iOS devices](https://github.com/thomasphillips3/Calculator/commit/ed3ad47859fec61e8f3a9d3a4ce39f628490f93c)
 **********
@@ -697,7 +769,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Thoughts:** While updating the images, I noticed some formatting issues have arisen. I'm using GitHub to track issues now. Part of becoming a better coder is learning to use the tools.
 
-**Link to work:** [Repo](https://github.com/thomasphillips3/parkplayers/issues/1)
+**Link to work** [Repo](https://github.com/thomasphillips3/parkplayers/issues/1)
 **********
 **********
 
@@ -726,7 +798,7 @@ So I'm going to start with the Terminal Games repo. The games seem to be just ou
 
 I am making good progress, but going to sleep now...at 2:40 am. The last issue I encountered was [Undefined symbols for architecture x86_64](https://stackoverflow.com/questions/18751868/undefined-symbols-for-architecture-x86-64-compiling-problems). I'll work on it tomorrow.
 
-**Link to work:** [ex-hashes.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-hashes.c)
+**Link to work** [ex-hashes.c](https://github.com/thomasphillips3/basic-blockchain-programming/blob/master/ex-hashes.c)
 **********
 **********
 
@@ -737,7 +809,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 
 **Thoughts:** I have never gotten fully into web development. I think I have always looked at it as easier than other languages, so I never bothered to get good at it. I like that HTML and CSS styling kinda helps me understand Android styling as well.
 
-**Link to work:** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
+**Link to work** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
 **********
 **********
 
@@ -748,7 +820,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 
 **Thoughts:** I have never gotten fully into web development. I think I have always looked at it as easier than other languages, so I never bothered to get good at it. I like that HTML and CSS styling kinda helps me understand Android styling as well.
 
-**Link to work:** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
+**Link to work** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
 **********
 **********
 
@@ -761,7 +833,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 **Thoughts:** This was helpful in understanding how to customize the look of my app. I definitely want to spend some time specifically on styling. I'm going to get back into the Letters to Myself project.
 
-**Link to work:** [Beatbox](https://github.com/thomasphillips3/Beatbox/commit/87f61e0f327f6c3fd475d67ed673f825773f14ff)
+**Link to work** [Beatbox](https://github.com/thomasphillips3/Beatbox/commit/87f61e0f327f6c3fd475d67ed673f825773f14ff)
 **********
 **********
 
@@ -772,7 +844,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 **Thoughts:** Starting to take my time and learn subjects more thoroughly, instead of just copying code to finish the chapters quicker.
 
-**Link to work:** [BeatBox](https://github.com/thomasphillips3/Beatbox)
+**Link to work** [BeatBox](https://github.com/thomasphillips3/Beatbox)
 **********
 **********
 
@@ -785,7 +857,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 **Thoughts:**  
 
-**Link to work:**   
+**Link to work**   
 [Repo](#)
 **********
 **********

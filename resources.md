@@ -26,7 +26,7 @@
 
     **Thoughts:**
 
-    **Link to work:** [Repo](https://github.com/thomasphillips3/...)
+    **Link to work** [Repo](https://github.com/thomasphillips3/...)
 
 
 ## Other resources
