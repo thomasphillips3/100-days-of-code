@@ -24,7 +24,7 @@
 
     **Today's Progress**:
 
-    **Thoughts:**
+    **Thoughts**
 
     **Link to work** [Repo](https://github.com/thomasphillips3/...)
 

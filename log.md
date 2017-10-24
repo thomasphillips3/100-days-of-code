@@ -1,4 +1,146 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 59: October 23, 2017
+##### JAMStack Tutorial - Full site using Netlify & Hugo
+
+**Today's Progress**  
+- Read [Setting up and registering GitHub OAuth Apps](https://developer.github.com/apps/building-integrations/setting-up-and-registering-oauth-apps/)
+- Finished [Coding Modern Websites with the JAMstack: Part 2](https://www.netlify.com/blog/2017/10/11/coding-modern-websites-with-the-jamstack-part-2/)  
+
+**Thoughts**  
+I got everything pushed to my GitHub repo, but the CMS page gives me an error.  
+![CMS error](res/CMS load error.png)
+I tried fixing on the `.yaml` file, but man fuck this tonight. I'm bouta [get high](https://www.youtube.com/watch?v=OcZAsLekb9c) and watch [Escape from NY](http://www.imdb.com/title/tt0082340/).
+
+**Links**   
+- [Setting up and registering OAuth Apps](https://developer.github.com/apps/building-integrations/setting-up-and-registering-oauth-apps/)
+- [Authorization Code Grant](https://tools.ietf.org/html/rfc6749#section-4.1)
+- [Coding Modern Websites with the JAMstack: Part 2](https://www.netlify.com/blog/2017/10/11/coding-modern-websites-with-the-jamstack-part-2/)  
+
+**********
+**********
+
+### Day 58: October 22, 2017
+##### JAMStack Tutorial - Full site using Netlify & Hugo
+
+**Today's Progress**  
+- Added CMS capabilities.
+
+**Thoughts**  
+Learned a bit more about what Netlify is, and how to use it as a CMS. I was working on this on the plane, and couldn't register a new OAuth app in GitHub without internet access.
+
+**Link to work**   
+[Adding the CMS](https://www.youtube.com/watch?v=NSts93C9UeE&t=897s)
+**********
+**********
+
+### Day 57: October 19, 2017
+##### JAMstack Tutorial - Full site using Netlify & Hugo
+
+**Today's Progress**  
+- Built and deployed a site using Netlify, which I had never heard of before.
+
+**Thoughts**  
+JAMStack is pretty dope. I learned a lot about static sites and static site generators. I stayed up really late trying to fix a bug where my Food page wouldn't load...I named the page `imperial-roll.md` instead of `imperial-rolls.md` ![failmoji](res/failmoji.png)
+
+**Links**   
+- [JAMstack Tutorial - Full site using Netlify & Hugo](https://www.youtube.com/watch?v=NSts93C9UeE)
+- [Hugo Restaurant Tutorial](https://github.com/thomasphillips3/hugo-restaurant-tutorial)
+- [An Introduction to Static Site Generators](https://davidwalsh.name/introduction-static-site-generators)
+- [Fixing npm On Mac OS X for Homebrew Users](https://gist.github.com/DanHerbert/9520689#fixing-npm-on-mac-os-x-for-homebrew-users)
+- [React JSX transform](https://babeljs.io/docs/plugins/transform-react-jsx/#installation)
+- [`package-lock.json`](https://docs.npmjs.com/files/package-lock.json)
+
+**********
+**********
+
+### Day 57: October 15, 2017
+##### Raspberry Pi
+
+**Today's Progress**  
+- Set up passwordless SSH access on the Pi  
+- Set up `atom-sync` for remote development from my MacBook to Raspberry Pi Baby Monitor
+
+**Links**   
+- [Passwordless SSH Access](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md)  
+- [`remote-sync`](https://atom.io/packages/atom-sync)
+
+**********
+**********
+### Day 56: October 14, 2017
+##### Baby Monitor
+
+**Today's Progress**
+- Finished setting up networking
+- Compiled [`picam`](https://github.com/iizukanao/picam/blob/master/INSTALL.md)
+- Created a bash script to start Picam
+- Created a bash script to run Picam at startup
+- Installed [`nginx`](https://www.nginx.com/resources/wiki/) to expose the video stream to allow connections to view it
+
+**Thoughts**
+I read about how networking has changed in Stretch. I thought about the baby monitor, and how I want to access it. For now, I opted to not make a static IP. I might change this later, if there's a need.
+
+I noticed the instructions I was following were for Jessie.
+
+```
+wget https://github.com/iizukanao/picam/releases/download/v1.4.6/picam-1.4.6-binary-jessie.tar.xz
+tar xvf picam-1.4.6-binary-jessie.tar.xz
+cp picam-1.4.6-binary-jessie/picam ~/picam/
+```
+
+Since I'm using Stretch, I deduced this may be the reason I was getting an empty list when I ran `arecord -l`.
+
+In the middle of this process, I realized that I'd have to cross-compile for Raspberry Pi, and I need a more powerful Linux computer for that. Since I don't feel like setting up a VM on my MacBook or setting up my Ubuntu server, I'll just follow the [Using a Binary Release](https://github.com/iizukanao/picam#using-a-binary-release) instructions.
+
+After getting the binary installed and set up, I realized that I was getting an empty list of audio devices because I don't have any audio devices lol duhhhh.
+
+I got the stream to work in VLC. The web player works in Safari, but not Chrome. I [left a comment](http://disq.us/p/1n0kosh), but I think I'm good for now.
+
+**Links**
+- [How do I set up networking/WiFi/static IP address?](https://raspberrypi.stackexchange.com/a/37921/6760)
+- [picam Compilation Guide](https://github.com/iizukanao/picam/blob/master/INSTALL.md)
+- [Using a PiCam Binary Release](https://github.com/iizukanao/picam#using-a-binary-release)
+- [How to symlink a file in Linux?](https://stackoverflow.com/a/1951752/270847)
+
+**********
+**********
+
+### Day 55: October 11, 2017
+##### Baby Monitor
+
+**Today's Progress**  
+- Formatted SD card with [SD Association's Formatting Tool](https://www.sdcard.org/downloads/formatter_4/eula_mac/)
+-  Installed Raspbian with NOOBS
+
+**Thoughts**  
+- I did the full format instead of quick. This got me interested in how formatting actually works, so I took a look at the [GParted code](https://github.com/GNOME/gparted). I didn't understand any of it.
+
+- I was able to get `raspistill` to work, but `arecord -l` gave me an empty list. I decided to quit for tonight since I at least know the camera is working. Must be a software issue.
+```
+pi@babypi:~ $ arecord -l
+**** List of CAPTURE Hardware Devices ****
+```
+**Links**   
+- [Camera Configuration](https://www.raspberrypi.org/documentation/configuration/camera.md)
+- [Building a Raspberry Pi 3 Baby Monitor](https://kamranicus.com/guides/raspberry-pi-3-baby-monitor)
+- [`raspistill` docuentation](https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspistill.md)
+- [Example syntax for Secure Copy (scp)](http://www.hypexr.org/linux_scp_help.php)
+
+**********
+**********
+
+### 54: October 10, 2017
+##### Android Internals - A Confectioner's Cookbook
+
+**Today's Progress**  
+Chapter 2 - Partitions and Filesystems  
+
+**Thoughts**  
+
+**Links**   
+[Android Internals - A Confectioner's Cookbook](http://newandroidbook.com/AIvI-M-RL1.pdf)
+**********
+**********
+
 ### Day 53: October 1, 2017
 ##### Park Players Website
 
@@ -50,7 +192,7 @@ Worked on the blog section. I was able to complete 2 shows - ***Guys and Dolls**
 
 **Today's Progress**
 - Read about [Minimax Algorithm](http://neverstopbuilding.com/minimax) I implemented in the Tic Tac Toe game.
-**Thoughts:**
+**Thoughts**
 Definitely gonna have to revisit this; I don't get it. the author warned me I might have to read it a few times to understand. He was right lol.
 
 **********
@@ -62,7 +204,7 @@ Definitely gonna have to revisit this; I don't get it. the author warned me I mi
 **Today's Progress**  
 Chapter 29: Custom Views and Touch Events.
 
-**Thoughts:**  
+**Thoughts**  
  I skipped a couple chapters from the PhotoGallery app. I kinda got tired of it. Will revisit soon tho.
 
 **Link to work**   
@@ -78,7 +220,7 @@ Chapter 29: Custom Views and Touch Events.
 - Read about [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) in JS
 - Read [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b)
 
-**Thoughts:**  
+**Thoughts**  
 I didn't get into the depths of minimax today. I know it uses recursion somehow. I will definitely read [this post](http://neverstopbuilding.com/minimax) tomorrow.  
 
 **Link to work**   
@@ -92,7 +234,7 @@ I didn't get into the depths of minimax today. I know it uses recursion somehow.
 **Today's Progress**  
 Recorded a simple espresso test to validate the UI elements of the main activity.
 
-**Thoughts:**  
+**Thoughts**  
 Espresso recorder makes it easy to create tests, but there's still a lot of work to create an entire framework around it. Learning that is on the agenda.
 
 **Link to work**   
@@ -118,7 +260,7 @@ The ribbon cable to my breakout board didn't fit on the Raspberry Pi 3, so I use
 
 **Today's Progress**  
 
-**Thoughts:**  
+**Thoughts**  
 
 **Link to work**   
 [Repo](#)
@@ -133,7 +275,7 @@ The ribbon cable to my breakout board didn't fit on the Raspberry Pi 3, so I use
 [Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
 6. Add a String property to CalculatorBrain called `description` which returns a description of the sequence of operands and operations that led to the value returned by result (or the result so far if `resultIsPending`). The character `=` (the equals sign) should never appear in this description, nor should `...` (ellipses).
 
-**Thoughts:**  
+**Thoughts**  
 I don't get it. I just found [this person's solution](https://github.com/m2mtech/calculator-2017/releases/tag/v1.0.6) and followed along.
 
 **Link to work**   
@@ -148,7 +290,7 @@ I don't get it. I just found [this person's solution](https://github.com/m2mtech
 ##### Java Console Calculator
 Created a [console calculator](https://www.linkedin.com/learning/java-8-essential-training/challenge-creating-a-simple-calculator-application?u=2011276) in Java.  
 
-**Thoughts:**  
+**Thoughts**  
 This project was pretty simple. I'm taking this [Java 8 Essential Training](https://www.linkedin.com/learning/java-8-essential-training?u=2011276) on LinkedIn Learning to fill in some of my Java understanding. It's redundant in some places, but worth it for some of the things I've missed in my self-taught coding education.
 
 - Debugging - I didn't know how to debug in IntelliJ IDEA. Now I know how to use the debugger - setting breakpoints and watching variables.
@@ -167,7 +309,7 @@ This project was pretty simple. I'm taking this [Java 8 Essential Training](http
 [Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
 5. Add a Bool property to your CalculatorBrain called resultIsPending which returns whether there is a binary operation pending.
 
-**Thoughts:**  
+**Thoughts**  
 I did this a different way before I found the right way lol.  
 
 **Link to work**   
@@ -199,7 +341,7 @@ I did this a different way before I found the right way lol.
 **Today's Progress**  
 Finished first drafts of Home, Auditions, Shows, and Contact sections. It's at a point now where we COULD launch it. I suppose this is a MVP.  
 
-**Thoughts:**  
+**Thoughts**  
 Eventually I want to set up deploying to AWS S3 Bucket directly from Github. Right now, I'm pushing my changes to Github, and manually uploading to S3 afterward.  
 
 **Link to work**   
@@ -213,7 +355,7 @@ Eventually I want to set up deploying to AWS S3 Bucket directly from Github. Rig
 **Today's Progress**   
 Been working on this website for a few weeks and haven't updated progress here.
 
-**Thoughts:**  
+**Thoughts**  
 - I'm getting better at determining discrete tasks so I can estimate how long it'll take me to complete.
 - I am learning AWS by implementing what I understand so far. Right now I'm only using S3, but as the website grows, maybe I'll have the opportunity to implement other services. I definitely want to get my AWS certifiation this year.  
 
@@ -225,7 +367,7 @@ Been working on this website for a few weeks and haven't updated progress here.
 - Read [Swift API Guidelines](https://swift.org/documentation/api-design-guidelines/)
 - Read [The Swift Programming Language](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097)
 
-**Thoughts:**
+**Thoughts**
 - Optionals are really strange. I think I had the hardest time understanding this.
 - Tuples are new to me, but pretty easy to understand.
 
@@ -284,7 +426,7 @@ I built a [voltage divider](https://en.wikipedia.org/wiki/Voltage_divider) today
 **Today's Progress**  
 Built a temperature converter in Python using Tkinter for the GUI.
 
-**Thoughts:**  
+**Thoughts**  
 Read this book Programming the Raspberry Pi: Getting Started with Python (Electronics) on my Kindle. I'm glad that it shows how to use `grid` instad of just `pack`. Also glad that it shows how to use Tkinter with classes.
 
 **Link to work**   
@@ -301,7 +443,7 @@ Read this book Programming the Raspberry Pi: Getting Started with Python (Electr
 - Read from the serial console with Python script
 
 
-**Thoughts:**  
+**Thoughts**  
 I've been wanting to do this for a while. Finally getting around to playing around with serial communication.
 
 **Link to work**   
@@ -344,7 +486,7 @@ I think learning about services will help me understand activities and fragments
 **Today's Progress**  
 Finished Chapter 23 of Big Nerd Ranch Android book on using the Android **`SearchView`**.   
 
-**Thoughts:**  
+**Thoughts**  
 This was pretty straightforward. Nothing too surprising.
 
 **********
@@ -355,7 +497,7 @@ This was pretty straightforward. Nothing too surprising.
 
 **Today's Progress**  
 
-**Thoughts:**  
+**Thoughts**  
 
 **Link to work**   
 [!](#)
@@ -372,7 +514,7 @@ This was pretty straightforward. Nothing too surprising.
 - [Python Tutorial 5: Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
 - [Python Tutorial 9: Classes](https://docs.python.org/3/tutorial/classes.html)
 
-**Thoughts:**
+**Thoughts**
 I'm super excited to have gotten the HockeyApp API to download an APK! I found reading through the code was more helpful than the documentation this time around.
 **********
 **********
@@ -383,7 +525,7 @@ I'm super excited to have gotten the HockeyApp API to download an APK! I found r
 **Today's Progress**  
 - Learned how to use classes to make Python program object-oriented.
 
-**Thoughts:**  
+**Thoughts**  
 Python gives you lots of tools to do things differently. Lots of room for error, but I can see its power if used correctly.  
 
 **Link to work**   
@@ -411,7 +553,7 @@ Python gives you lots of tools to do things differently. Lots of room for error,
 **Today's Progress**  
 - Read ADB Guide
 
-**Thoughts:**   
+**Thoughts**   
 Lots of stuff in here I glossed over previously, or just didn't know. This will help me write scripts for installing APKs and pulling logs as necessary.
 **********
 **********
@@ -440,7 +582,7 @@ Lots of stuff in here I glossed over previously, or just didn't know. This will 
 - Implemented handleMessage to download and decode the bitmap file from the target's URL
 - Pass the downloaded bitmap to the main thread to display
 
-**Thoughts:**  
+**Thoughts**  
 I think I get it.
 
 **Link to work**   
@@ -452,7 +594,7 @@ I think I get it.
 ### Day 22: July 15, 2017
 ##### Debugging Android
 
-**Thoughts:**  
+**Thoughts**  
 I noticed my local placeholder image wasn't showing. I had only ever tested this code while in airplane mode, and suspect that the lack of internet connection is causing the problem. Here's what I think is happening
 - My `AsyncTask` (`FlickrFetcher.fetchitems()`) fails to download, and throws an exception
 - Because of this failure, `FetchItemsTask.onPostExecute(...)` doesn't execute
@@ -469,7 +611,7 @@ Basically, if there's no internet connection, the user won't see anything right 
 **Today's Progress**:
 Create a background thread to handle the longer-running background process of downloading images. AsyncTask isn't meant for long-running processes.
 
-**Thoughts:**
+**Thoughts**
 
 **Link to work** [Repo](#)
 **********
@@ -481,7 +623,7 @@ Create a background thread to handle the longer-running background process of do
 **Today's Progress**:
 - Implemented OnVerticalScrollListener from [this SO question](https://stackoverflow.com/a/30410605/270847).
 
-**Thoughts:**
+**Thoughts**
 I'm not sure if `OnVerticalScrollListener` is implemented correctly. I put a log message in `onScrolledToBottom()`, but it never fired. I'm not sure if this is because I'm on a plane and can't fetch data from Flickr, but I saved it under a new branch so I can continue working on the next chapter and come back to this later.
 
 **Link to work** [Repo](#)
@@ -494,7 +636,7 @@ I'm not sure if `OnVerticalScrollListener` is implemented correctly. I put a log
 **Today's Progress**:
 - Created an app to issue ADB commands from a Tkinter interface
 
-**Thoughts:**
+**Thoughts**
 I learned about callbacks and lambdas in Python. Trying to stay focused on completing one task completely before moving on to something else. I notice that if I find a new way of doing something while I'm in the middle of it, I often get distracted by the options instead of just finishing the way I started.
 
 In Python, I have to define a function above where it's used. Java isn't as picky.
@@ -506,7 +648,7 @@ In Python, I have to define a function above where it's used. Java isn't as pick
 
 **Today's Progress**: Converted the parseItems method to use [GSON](https://github.com/google/gson) instead of parsing manually. I read [this forum](https://forums.bignerdranch.com/t/using-gson/7849/5?u=thomasphillips3) to help.
 
-**Thoughts:**
+**Thoughts**
 
 **Link to work** [GSON](https://github.com/thomasphillips3/PhotoGallery/commit/29d7f7c62636237dabc4e9cab75cf5ddce79d8a4)
 **********
@@ -518,7 +660,7 @@ In Python, I have to define a function above where it's used. Java isn't as pick
 **Today's Progress**:
 Got [Tkinter GUI Application Development Blueprints](https://www.amazon.com/Tkinter-GUI-Application-Development-Blueprints/dp/1785889737).
 
-**Thoughts:**
+**Thoughts**
 I learned the difference between `from tkinter import *`, `import tkinter`, and `import tkinter as tk`. Hadn't really considered this distinction before, but it makes sense.
 
 The grid system will take some getting used to, but I think I see its merits already. Seems to be simple and powerful at the same time.
@@ -533,7 +675,7 @@ The grid system will take some getting used to, but I think I see its merits alr
 **Today's Progress**:
 - Tried debugging why my RecyclerView won't populate with the parsed JSON data
 
-**Thoughts:**
+**Thoughts**
 I set breakpoints and examined everywhere. I must have set up something wrong with the ViewHolder or Adapter.
 **********
 **********
@@ -544,7 +686,7 @@ I set breakpoints and examined everywhere. I must have set up something wrong wi
 **Today's Progress**:
 - Parsed the JSON response from Flickr
 
-**Thoughts:**
+**Thoughts**
 The parsed JSON won't display in my RecyclerView. I'm not sure why this is happening, but it makes me sad.
 **********
 **********
@@ -558,7 +700,7 @@ Chapter 22: More About Intents and Tasks
 - Added icon next to each app's entry in the list
 - Read [Android Processes and Threads](https://developer.android.com/guide/components/processes-and-threads.html)
 
-**Thoughts:**
+**Thoughts**
 
 **Link to work** [More About Intents and Tasks](https://github.com/thomasphillips3/NerdLauncher/commit/693729f8cf1fa86c2c1e47d159adb36ae9e58c77)
 **********
@@ -571,7 +713,7 @@ Chapter 22: More About Intents and Tasks
 - Created Flickr API key
 - Read Flickr API. Specifically [flickr.photos.getRecent](https://www.flickr.com/services/api/flickr.photos.getRecent.html)
 
-**Thoughts:**
+**Thoughts**
 I feel like this is the starting point of learning some real shit. Networking and tasks are two areas I haven't studied in-depth yet, and I'm very excited to learn and implement this further. I think this is where I can start to branch out and start brainstorming my own project ideas. There's a pretty good opportunity for creating clients to display web content in new, interesting ways.
 
 **Link to work** [Repo](#)
@@ -584,7 +726,7 @@ I feel like this is the starting point of learning some real shit. Networking an
 **Today's Progress**:
 Did more of the cover.
 
-**Thoughts:**
+**Thoughts**
 CSS is tough. Flexbox doesn't all the way make sense. I punched the floor, then figured shit out.
 
 **Link to work** [More design](https://github.com/thomasphillips3/letters/commit/40dba6ca2d3ff60c5d693a3b8928393d97b6581e)
@@ -597,7 +739,7 @@ CSS is tough. Flexbox doesn't all the way make sense. I punched the floor, then 
 **Today's Progress**:
 Did most of the cover.
 
-**Thoughts:**
+**Thoughts**
 CSS is tough.
 
 **Link to work** [Cover design](https://github.com/thomasphillips3/letters/commit/9bf94c89490b16314dc23f999c719c6e2a1d3af8)
@@ -609,7 +751,7 @@ CSS is tough.
 
 **Today's Progress**:
 -
-**Thoughts:**
+**Thoughts**
 I'm using the canary version of Android Studio, so when I added the RecyclerView dependency, it added the version from the alpha library. I changed the version in the `build.gradle` file and re-synced, and everything is fine.
 
 **Link to work** [Initial commit](https://github.com/thomasphillips3/NerdLauncher/commit/491319c8f528624e1589b681f1a2c1bd6b90019b)
@@ -622,7 +764,7 @@ I'm using the canary version of Android Studio, so when I added the RecyclerView
 **Today's Progress**:
 - I wanted to understand OpenSSL library better, so I played around with ex-hashes.c. I changed the example string to my name. I checked the hash by piping the ouput from `echo` to `openssl` as follows `echo -n "Thomas" | openssl sha256`.
 
-**Thoughts:**
+**Thoughts**
 
 **Link to work** [Repo](#)
 **********
@@ -635,7 +777,7 @@ I'm using the canary version of Android Studio, so when I added the RecyclerView
 - Learned how to set up Google Play Services in an Android app
 - Learned how to make synchronous and asynchronous calls
 
-**Thoughts:**
+**Thoughts**
 This is good for helping me understand how Android Studio handles dependencies. I've been having some confusion with Gradle and adding dependencies. Now, I know the process
 - Make sure the Google Support Repository is available on the local machine using SDK Manager
 - Add Google Support Repository to the project by adding a new build rule under `dependencies` for the latest version of `play-services` in the app's `build.gradle` file
@@ -649,7 +791,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 **Today's Progress**:
 - [Mongoose Getting Started Guide](http://mongoosejs.com/docs/)
 
-**Thoughts:**
+**Thoughts**
 - Mongoose is to help decrease the amount of boilerplate code you have to get up and running in MongoDB.
 
 **********
@@ -660,7 +802,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 - Finished [Serialization (pt. 1)](http://davidederosa.com/basic-blockchain-programming/serialization-part-one/)
 - Finished [Serialization (pt. 2)](http://davidederosa.com/basic-blockchain-programming/serialization-part-two/index.html)
 
-**Thoughts:**
+**Thoughts**
 - Studied the example on hashes (ex-hashes.c). Changed the code to get different hashes. I understand the example pretty well. The hardest part so far was learning to include the OpenSSL library during compilation. My C++ experience in Engin101 at U of M was brief. I learned how to include header files, but not external libraries. I got it to work with `gcc -I /usr/local/opt/openssl/include/ -L /usr/local/opt/openssl/lib/ ex-hashes.c -lcrypto`. SUUUUPER excited!!!
 
 - Learned about encoding variables of different lengths with `varints`
@@ -677,7 +819,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 **Today's Progress**:
 - I have a book called Letters to My Future Self. I'm practicing styling with CSS by replicating the book in code.
 
-**Thoughts:**
+**Thoughts**
 
 **Link to work**
 - [Letters](https://github.com/thomasphillips3/letters/commit/4043edd6414f67354cd1a081f0de9ef730f5ce19)
@@ -691,7 +833,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 - Read about 9-Patch images
 - Read about Mipmap images
 
-**Thoughts:** I'm on a plane, and don't have access to the file used to create the 9-patch png in my Beatbox app, but I get it.
+**Thoughts** I'm on a plane, and don't have access to the file used to create the 9-patch png in my Beatbox app, but I get it.
 
 Mipmaps I still don't really get. Gotta check this out more later.
 
@@ -701,7 +843,7 @@ Mipmaps I still don't really get. Gotta check this out more later.
 **Today's Progress**:
 - Recursion
 
-**Thoughts:**
+**Thoughts**
 I wrote a simple app to find the GCD, and remembered things about C++ I had forgotten. I initially wrote my gcd function below main(). I forgot if I want to do it this way, I have to declare the function above main. The other option is to just put main under gcd in the code.
 
 **********
@@ -714,7 +856,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Today's Progress**: Read through some basic crypto stuff again. I understand how the code works, but am still having trouble linking to the `openssl` headers. I gotta figure this out.
 
-**Thoughts:**
+**Thoughts**
 
 **Link to work**
 - [basic-blockchain-programming](https://github.com/thomasphillips3/basic-blockchain-programming)
@@ -727,7 +869,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 **Today's Progress**:
 - Continued the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
 
-**Thoughts:**
+**Thoughts**
 
 **Link to work**
 - [Times table](https://gist.github.com/thomasphillips3/483bf68709a5985ae8f83e78f4e722c3)
@@ -742,7 +884,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 - Created a wrapper around g++ to compile code with stricter rules
 - [Formatting output with cout](http://www.cplusplus.com/reference/ostream/ostream/)
 
-**Thoughts:** While creating the gccp binary, I learned about permissions on Mac. I wasn't able to move my newly-created binary to /bin or /usr/bin, even as root. I found [this answer on SO](https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled), which told me about [System Integrity Protection](https://apple.stackexchange.com/questions/193368/what-is-the-rootless-feature-in-el-capitan-really) on Mac. Instead of removing SIP, I installed it to usr/local/bin.
+**Thoughts** While creating the gccp binary, I learned about permissions on Mac. I wasn't able to move my newly-created binary to /bin or /usr/bin, even as root. I found [this answer on SO](https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled), which told me about [System Integrity Protection](https://apple.stackexchange.com/questions/193368/what-is-the-rootless-feature-in-el-capitan-really) on Mac. Instead of removing SIP, I installed it to usr/local/bin.
 
 **Links to work:**
 - [gccp](https://gist.github.com/thomasphillips3/b378f6b81e16f770f5608cdd839d835e)
@@ -754,7 +896,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Today's Progress**: Developing iOS 10 Apps with Swift - Lecture 2: [MVC](https://itunes.apple.com/us/course/2-mvc-ios-xcode-and-swift-demonstration/id1198467120?i=1000381073277&mt=2).
 
-**Thoughts:** Swift and iOS do things differently than Java and Android. It's a challenge getting used to both at the same time, but I think it's helping me grasp the overall concepts better. Seeing MVC in both settings is definitely helping me understand that better.
+**Thoughts** Swift and iOS do things differently than Java and Android. It's a challenge getting used to both at the same time, but I think it's helping me grasp the overall concepts better. Seeing MVC in both settings is definitely helping me understand that better.
 
 **Link to work**
 - [Built out the Controller](https://github.com/thomasphillips3/Calculator/commit/81a6bbf2d4b209c72da5bacb5a245b292a4b5743)
@@ -767,7 +909,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 **Today's Progress:** Since I'm hosting in AWS, I want to only edit the HTML file, and store all assets (images, CSS, JS files) in AWS or in a CDN.
 
-**Thoughts:** While updating the images, I noticed some formatting issues have arisen. I'm using GitHub to track issues now. Part of becoming a better coder is learning to use the tools.
+**Thoughts** While updating the images, I noticed some formatting issues have arisen. I'm using GitHub to track issues now. Part of becoming a better coder is learning to use the tools.
 
 **Link to work** [Repo](https://github.com/thomasphillips3/parkplayers/issues/1)
 **********
@@ -783,7 +925,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 
 Also, I played around with C in XCode a bit.
 
-**Thoughts:** I want the experience of learning to program like I should have had in college. I am going to take my time and understand all the code I read. Going through all these C project repositories gave me a sense of how C looks, and what people use it for, versus newer languages (Java, Swift, JavaScript, Python, etc).
+**Thoughts** I want the experience of learning to program like I should have had in college. I am going to take my time and understand all the code I read. Going through all these C project repositories gave me a sense of how C looks, and what people use it for, versus newer languages (Java, Swift, JavaScript, Python, etc).
 
 So I'm going to start with the Terminal Games repo. The games seem to be just outside of the bounds of my understanding. It'll challenge me, but not discourage me.
 **********
@@ -794,7 +936,7 @@ So I'm going to start with the Terminal Games repo. The games seem to be just ou
 
 **Today's Progress**: [Serialization (pt. 1)](http://davidederosa.com/basic-blockchain-programming/serialization-part-one/) of [Davide De Rosa's Blockchain Programming Tutorial](http://davidederosa.com/basic-blockchain-programming/).
 
-**Thoughts:** I started reading this a while ago, but wanted to actually run the code. This was a learning process as well, getting my computer set up for C++. I found a couple plug-ins for Atom. I think I'll try to make that work.
+**Thoughts** I started reading this a while ago, but wanted to actually run the code. This was a learning process as well, getting my computer set up for C++. I found a couple plug-ins for Atom. I think I'll try to make that work.
 
 I am making good progress, but going to sleep now...at 2:40 am. The last issue I encountered was [Undefined symbols for architecture x86_64](https://stackoverflow.com/questions/18751868/undefined-symbols-for-architecture-x86-64-compiling-problems). I'll work on it tomorrow.
 
@@ -807,7 +949,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 
 **Today's Progress**: Began uploading all assets to their own S3 bucket. Replaced pics with correct sizes.
 
-**Thoughts:** I have never gotten fully into web development. I think I have always looked at it as easier than other languages, so I never bothered to get good at it. I like that HTML and CSS styling kinda helps me understand Android styling as well.
+**Thoughts** I have never gotten fully into web development. I think I have always looked at it as easier than other languages, so I never bothered to get good at it. I like that HTML and CSS styling kinda helps me understand Android styling as well.
 
 **Link to work** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
 **********
@@ -818,7 +960,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 
 **Today's Progress**: Began uploading all assets to their own S3 bucket. Replaced pics with correct sizes.
 
-**Thoughts:** I have never gotten fully into web development. I think I have always looked at it as easier than other languages, so I never bothered to get good at it. I like that HTML and CSS styling kinda helps me understand Android styling as well.
+**Thoughts** I have never gotten fully into web development. I think I have always looked at it as easier than other languages, so I never bothered to get good at it. I like that HTML and CSS styling kinda helps me understand Android styling as well.
 
 **Link to work** [Park Players](https://github.com/thomasphillips3/parkplayers/commit/28b2dbe9293b293f83a18a02fecfdc524cd613d9)
 **********
@@ -831,7 +973,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 
 Applied themes and styles to the Beatbox app. Learned to traverse the theme hierarchy to find the appropriate attributes to override.
 
-**Thoughts:** This was helpful in understanding how to customize the look of my app. I definitely want to spend some time specifically on styling. I'm going to get back into the Letters to Myself project.
+**Thoughts** This was helpful in understanding how to customize the look of my app. I definitely want to spend some time specifically on styling. I'm going to get back into the Letters to Myself project.
 
 **Link to work** [Beatbox](https://github.com/thomasphillips3/Beatbox/commit/87f61e0f327f6c3fd475d67ed673f825773f14ff)
 **********
@@ -842,12 +984,11 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 **Today's Progress**: Learned about SoundPool and assets. Big Nerd Ranch chapters 18 and 19.
 
-**Thoughts:** Starting to take my time and learn subjects more thoroughly, instead of just copying code to finish the chapters quicker.
+**Thoughts** Starting to take my time and learn subjects more thoroughly, instead of just copying code to finish the chapters quicker.
 
 **Link to work** [BeatBox](https://github.com/thomasphillips3/Beatbox)
 **********
 **********
-
 
 
 ### Day: Date
@@ -855,7 +996,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 **Today's Progress**  
 
-**Thoughts:**  
+**Thoughts**  
 
 **Link to work**   
 [Repo](#)
