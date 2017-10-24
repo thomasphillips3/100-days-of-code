@@ -8,7 +8,7 @@
 
 **Thoughts**  
 I got everything pushed to my GitHub repo, but the CMS page gives me an error.  
-![CMS error](res/CMS load error.png)
+![CMS error](res/CMSLoadError.png)
 I tried fixing on the `.yaml` file, but man fuck this tonight. I'm bouta [get high](https://www.youtube.com/watch?v=OcZAsLekb9c) and watch [Escape from NY](http://www.imdb.com/title/tt0082340/).
 
 **Links**   
