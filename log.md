@@ -1,4 +1,53 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 62: October 29, 2017
+##### JAMStack Tutorial - Full site using Netlify & Hugo
+
+**Today's Progress**  
+- Added Drinks page
+- Added Gallery page
+- Played around with the CMS, creating and deleting things from the menu
+- Created a reservation form
+- Checked out Netlify's Notifications
+
+**Thoughts**  
+
+**Link to work**   
+[Repo](#)
+**********
+**********
+### Day 61: October 28, 2017
+##### JAMStack Tutorial - Full site using Netlify & Hugo
+
+**Today's Progress**  
+- Read [Netlify CMS Docs](https://www.netlifycms.org/docs/)
+- Added Netlify Identity widget using script injection
+- Enabled Identity Service in Netlify
+- Fixed the path to my GitHub repo in `config.yml`. I had the full URL instead of just the relative path.
+
+**Thoughts**  
+So when I finished last night, I was able to get authenticated with GitHub OAuth, but the CMS admin page wouldn't load. I went back through all the docs and blogs but couldn't figure out the problem. I realized it was with the `config.yml` file again. The `backend`
+
+**Link to work**   
+[CMS](https://gambler-joan-41676.netlify.com/admin/)
+**********
+**********
+
+### Day 60: October 27, 2017
+##### JAMStack Tutorial - Full site using Netlify & Hugo
+
+**Today's Progress**  
+- Got CMS to load locally
+- Read [Netlify CMS Docs](https://www.netlifycms.org/docs/)
+
+**Thoughts**  
+I've been struggling to get the CMS to load and couldn't figure out wtf was wrong. I had a stupid typo - `static/admin/config.yml` was named `static/admin/config.yaml`
+
+**Link to work**   
+- [OAuth](https://github.com/thomasphillips3/hugo-restaurant-tutorial/commit/8f0b543fee6c7aac980e289f080245d4271d6f4f)
+- [Fixed Typos](https://github.com/thomasphillips3/hugo-restaurant-tutorial/commit/e8f2320fe49ad844af6e2a95701ec934d5db30fb)
+**********
+**********
+
 ### Day 59: October 23, 2017
 ##### JAMStack Tutorial - Full site using Netlify & Hugo
 
