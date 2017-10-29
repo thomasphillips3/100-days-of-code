@@ -10,6 +10,7 @@
 - Checked out Netlify's Notifications
 
 **Thoughts**  
+Finally finished this today. The [video](https://www.youtube.com/watch?v=NSts93C9UeE) was only like 30 min, but I took 10 days to really absorb and learn what I was going through. I feel confident that I can build and deploy a static site using CMS now. Got a few ideas for this already. 
 
 **Link to work**   
 [Tasty Licks](https://gambler-joan-41676.netlify.com/)
