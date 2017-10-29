@@ -10,7 +10,10 @@
 - Checked out Netlify's Notifications
 
 **Thoughts**  
-Finally finished this today. The [video](https://www.youtube.com/watch?v=NSts93C9UeE) was only like 30 min, but I took 10 days to really absorb and learn what I was going through. I feel confident that I can build and deploy a static site using CMS now. Got a few ideas for this already. 
+Finally finished this today. The [video](https://www.youtube.com/watch?v=NSts93C9UeE) was only like 30 min, but I took 10 days to really absorb and learn what I was going through. I feel confident that I can build and deploy a static site with CMS and continuous deployment now. Got a few ideas for this already.
+
+After deploying, I noticed that my content wasn't loading on the site after I added it in the CMS admin portal. [This comment](https://www.youtube.com/watch?v=NSts93C9UeE&lc=UgzK9jle0_5qtkdsrX14AaABAg.8YR5UgXbcVp8YT2Q21HlLR) on the video told me that I need to manually upgrade the Hugo version in the Netlify Dashboard by adding a new build environment variable that sets `HUGO_VERSION`'s value to `0.29`
+![hugoversion](res/hugoversion.png).
 
 **Link to work**   
 [Tasty Licks](https://gambler-joan-41676.netlify.com/)
