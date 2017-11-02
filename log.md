@@ -1,4 +1,22 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 63: November 1, 2017
+##### Android: An Introduction to Material Design with Kotlin
+
+**Today's Progress**  
+- Started [Android: An Introduction to Material Design with Kotlin](https://www.raywenderlich.com/168916/android-an-introduction-to-material-design)
+- Implemented a RecyclerView and a CardView to display images
+
+**Thoughts**  
+
+**Link to work**   
+- [initial commit](https://github.com/thomasphillips3/travelwishlist-starter/commit/81c37428f94007e572bec8c61c85364841a022c2)
+- [Nav bar styling](https://github.com/thomasphillips3/travelwishlist-starter/commit/2399e59402b6f0bbd8aab5524fac91c90d7157cd)
+- [Implemented RecyclerView](https://github.com/thomasphillips3/travelwishlist-starter/commit/7132aa5b761bf93b6fa87948d5c54fb50913e40b)
+- [Load images into CardView](https://github.com/thomasphillips3/travelwishlist-starter/commit/e19cf53d5eaf79f46ee4320eba9c70728a3e4b08)
+- [Implementing a Click Interface for Each Cell](https://github.com/thomasphillips3/travelwishlist-starter/commit/e4e67aaa391586a90cb246ead388cd9de26194be)
+**********
+**********
+
 ### Day 62: October 29, 2017
 ##### JAMStack Tutorial - Full site using Netlify & Hugo
 
