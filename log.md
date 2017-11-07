@@ -1,4 +1,71 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 68: November 7, 2017
+##### Park Players Website
+
+**Today's Progress**  
+- Finished [Implementing SSL on Amazon S3 Static Websites](https://knightlab.northwestern.edu/2015/05/21/implementing-ssl-on-amazon-s3-static-websites/) tutorial
+- Created a CloudFront distribution
+- Pointed parkplayers.org to the CloudFront domain name
+
+**Thoughts**  
+This fixed the cross-origin errors in the console. Makes it feel like an actual, fully-grown (albeit single-page) website lol.
+
+**Link to work**   
+[Park Players](http://parkplayers.org)
+**********
+**********
+
+##### Title/ Project
+### Day 67: November 6, 2017
+##### Park Players Website
+
+**Today's Progress**  
+- [#3 Fix Vendini link](https://github.com/thomasphillips3/parkplayers/issues/3)
+- Approved SSL certificates for all parkplayers domain names
+**********
+**********
+
+### Day 66: Date November 5, 2017
+##### Park Player Website
+
+**Today's Progress**  
+Started implementing SSL into the website using [this post](https://medium.com/@sbuckpesch/setup-aws-s3-static-website-hosting-using-ssl-acm-34d41d32e394) as a guide.
+
+**Thoughts**  
+Didn't finish, but going through this will help me understand what SSL is better, and how it works.
+
+**********
+**********
+
+### Day 65: November 3, 2017
+##### Android: An Introduction to Material Design with Kotlin
+
+**Today's Progress**  
+- Using the Palette API in the List
+- Using the New Material APIs
+- Adding a Reveal Animation
+- Morphing a Bezier Path for a Floating Action Button
+- Adding Dynamic Colors to Views Using Palette API
+
+**Thoughts**  
+This is a great intro to how to customize a UI with Material APIs.
+
+**Link to work**   
+[November 3](https://github.com/thomasphillips3/travelwishlist-starter/commit/71f89bc8deddc5263e2ec012332dec8fe063e1d8)
+**********
+**********
+
+### Day 64: November 2, 2017
+##### Android: An Introduction to Material Design with Kotlin
+
+**Today's Progress**  
+- Implemented toggle button to go between a grid and list
+
+**Link to work**   
+[From List to Grid and Back(https://github.com/thomasphillips3/travelwishlist-starter/commit/b033470996f66c1fb360d4ccedea8944e3ea30cb)
+**********
+**********
+
 ### Day 63: November 1, 2017
 ##### Android: An Introduction to Material Design with Kotlin
 
@@ -7,6 +74,7 @@
 - Implemented a RecyclerView and a CardView to display images
 
 **Thoughts**  
+Taking the time to understand Android styling, and especially Material Design concepts.
 
 **Link to work**   
 - [initial commit](https://github.com/thomasphillips3/travelwishlist-starter/commit/81c37428f94007e572bec8c61c85364841a022c2)
