@@ -1,4 +1,23 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 69 (😏 heh): November 8, 2017
+##### AWS
+**Today's Progress**  
+- [Install the AWS Command Line Interface on macOS](http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html)  
+- [Configuring the AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)  
+- [Download multiple files S3](https://stackoverflow.com/a/31744929/270847)
+- [Image Optimization in Python](https://cloudinary.com/blog/image_optimization_in_python)
+- [Google Web Fundamentals Image Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+- [Image Optimization in Python](https://cloudinary.com/blog/image_optimization_in_python)
+- Used [Optimizilla](http://optimizilla.com/) to optimize my images. This decreased the size of images from 118.7 MB to 14.5 MB.
+
+**Thoughts**  
+`preload.gif` is still 404ing. Dunno why. It's linked to the file in AWS in my css file, and it works in the index.html locally. 
+
+**Link to work**   
+[Repo](#)
+**********
+**********
+
 ### Day 68: November 7, 2017
 ##### Park Players Website
 
