@@ -1,6 +1,22 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 70: November 12, 2017
+#### Android: An Introduction to Material Design with Kotlin
+
+**Today's Progress**  
+- Finished [Android: An Introduction to Material Design with Kotlin](https://www.raywenderlich.com/168916/android-an-introduction-to-material-design)
+- [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/)
+
+**Thoughts**  
+I can use these tactics to make Android apps pretty.
+
+**Link to work**   
+- [Activity Transitions With Shared Elements](https://github.com/thomasphillips3/travelwishlist-starter/commit/b7838d2ae16f1aa2fcfc6043336fb3f2ec0ad7cb)
+- [FAB transition is much smoother](https://github.com/thomasphillips3/travelwishlist-starter/commit/257794ea368737db4511442bae6798287e262dbf)
+**********
+**********
+
 ### Day 69 (😏 heh): November 8, 2017
-##### AWS
+#### AWS
 **Today's Progress**  
 - [Install the AWS Command Line Interface on macOS](http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html)  
 - [Configuring the AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)  
@@ -11,7 +27,7 @@
 - Used [Optimizilla](http://optimizilla.com/) to optimize my images. This decreased the size of images from 118.7 MB to 14.5 MB.
 
 **Thoughts**  
-`preload.gif` is still 404ing. Dunno why. It's linked to the file in AWS in my css file, and it works in the index.html locally. 
+`preload.gif` is still 404ing. Dunno why. It's linked to the file in AWS in my css file, and it works in the index.html locally.
 
 **Link to work**   
 [Repo](#)
@@ -19,7 +35,7 @@
 **********
 
 ### Day 68: November 7, 2017
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**  
 - Finished [Implementing SSL on Amazon S3 Static Websites](https://knightlab.northwestern.edu/2015/05/21/implementing-ssl-on-amazon-s3-static-websites/) tutorial
@@ -34,9 +50,9 @@ This fixed the cross-origin errors in the console. Makes it feel like an actual,
 **********
 **********
 
-##### Title/ Project
+#### Title/ Project
 ### Day 67: November 6, 2017
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**  
 - [#3 Fix Vendini link](https://github.com/thomasphillips3/parkplayers/issues/3)
@@ -45,7 +61,7 @@ This fixed the cross-origin errors in the console. Makes it feel like an actual,
 **********
 
 ### Day 66: Date November 5, 2017
-##### Park Player Website
+#### Park Player Website
 
 **Today's Progress**  
 Started implementing SSL into the website using [this post](https://medium.com/@sbuckpesch/setup-aws-s3-static-website-hosting-using-ssl-acm-34d41d32e394) as a guide.
@@ -57,7 +73,7 @@ Didn't finish, but going through this will help me understand what SSL is better
 **********
 
 ### Day 65: November 3, 2017
-##### Android: An Introduction to Material Design with Kotlin
+#### Android: An Introduction to Material Design with Kotlin
 
 **Today's Progress**  
 - Using the Palette API in the List
@@ -75,7 +91,7 @@ This is a great intro to how to customize a UI with Material APIs.
 **********
 
 ### Day 64: November 2, 2017
-##### Android: An Introduction to Material Design with Kotlin
+#### Android: An Introduction to Material Design with Kotlin
 
 **Today's Progress**  
 - Implemented toggle button to go between a grid and list
@@ -86,7 +102,7 @@ This is a great intro to how to customize a UI with Material APIs.
 **********
 
 ### Day 63: November 1, 2017
-##### Android: An Introduction to Material Design with Kotlin
+#### Android: An Introduction to Material Design with Kotlin
 
 **Today's Progress**  
 - Started [Android: An Introduction to Material Design with Kotlin](https://www.raywenderlich.com/168916/android-an-introduction-to-material-design)
@@ -105,7 +121,7 @@ Taking the time to understand Android styling, and especially Material Design co
 **********
 
 ### Day 62: October 29, 2017
-##### JAMStack Tutorial - Full site using Netlify & Hugo
+#### JAMStack Tutorial - Full site using Netlify & Hugo
 
 **Today's Progress**  
 - Added Drinks page
@@ -125,7 +141,7 @@ After deploying, I noticed that my content wasn't loading on the site after I ad
 **********
 **********
 ### Day 61: October 28, 2017
-##### JAMStack Tutorial - Full site using Netlify & Hugo
+#### JAMStack Tutorial - Full site using Netlify & Hugo
 
 **Today's Progress**  
 - Read [Netlify CMS Docs](https://www.netlifycms.org/docs/)
@@ -142,7 +158,7 @@ So when I finished last night, I was able to get authenticated with GitHub OAuth
 **********
 
 ### Day 60: October 27, 2017
-##### JAMStack Tutorial - Full site using Netlify & Hugo
+#### JAMStack Tutorial - Full site using Netlify & Hugo
 
 **Today's Progress**  
 - Got CMS to load locally
@@ -158,7 +174,7 @@ I've been struggling to get the CMS to load and couldn't figure out wtf was wron
 **********
 
 ### Day 59: October 23, 2017
-##### JAMStack Tutorial - Full site using Netlify & Hugo
+#### JAMStack Tutorial - Full site using Netlify & Hugo
 
 **Today's Progress**  
 - Read [Setting up and registering GitHub OAuth Apps](https://developer.github.com/apps/building-integrations/setting-up-and-registering-oauth-apps/)
@@ -178,7 +194,7 @@ I tried fixing on the `.yaml` file, but man fuck this tonight. I'm bouta [get hi
 **********
 
 ### Day 58: October 22, 2017
-##### JAMStack Tutorial - Full site using Netlify & Hugo
+#### JAMStack Tutorial - Full site using Netlify & Hugo
 
 **Today's Progress**  
 - Added CMS capabilities.
@@ -192,7 +208,7 @@ Learned a bit more about what Netlify is, and how to use it as a CMS. I was work
 **********
 
 ### Day 57: October 19, 2017
-##### JAMstack Tutorial - Full site using Netlify & Hugo
+#### JAMstack Tutorial - Full site using Netlify & Hugo
 
 **Today's Progress**  
 - Built and deployed a site using Netlify, which I had never heard of before.
@@ -212,7 +228,7 @@ JAMStack is pretty dope. I learned a lot about static sites and static site gene
 **********
 
 ### Day 57: October 15, 2017
-##### Raspberry Pi
+#### Raspberry Pi
 
 **Today's Progress**  
 - Set up passwordless SSH access on the Pi  
@@ -225,7 +241,7 @@ JAMStack is pretty dope. I learned a lot about static sites and static site gene
 **********
 **********
 ### Day 56: October 14, 2017
-##### Baby Monitor
+#### Baby Monitor
 
 **Today's Progress**
 - Finished setting up networking
@@ -263,7 +279,7 @@ I got the stream to work in VLC. The web player works in Safari, but not Chrome.
 **********
 
 ### Day 55: October 11, 2017
-##### Baby Monitor
+#### Baby Monitor
 
 **Today's Progress**  
 - Formatted SD card with [SD Association's Formatting Tool](https://www.sdcard.org/downloads/formatter_4/eula_mac/)
@@ -287,7 +303,7 @@ pi@babypi:~ $ arecord -l
 **********
 
 ### 54: October 10, 2017
-##### Android Internals - A Confectioner's Cookbook
+#### Android Internals - A Confectioner's Cookbook
 
 **Today's Progress**  
 Chapter 2 - Partitions and Filesystems  
@@ -300,7 +316,7 @@ Chapter 2 - Partitions and Filesystems
 **********
 
 ### Day 53: October 1, 2017
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**
 Finished the blog section - ***Our Town*** and ***Hairspray***
@@ -313,7 +329,7 @@ Finished the blog section - ***Our Town*** and ***Hairspray***
 
 
 ### Day 52: September 26, 2007
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**  
 Worked on the blog section. I was able to complete 2 shows - ***Much Ado About Nothing*** and ***Urinetown***  
@@ -325,7 +341,7 @@ Worked on the blog section. I was able to complete 2 shows - ***Much Ado About N
 **********
 
 ### Day 51: September 25, 2007
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**  
 Worked on the blog section. I was able to complete 2 shows - ***Guys and Dolls*** and ***A Murder is Announced***  
@@ -337,7 +353,7 @@ Worked on the blog section. I was able to complete 2 shows - ***Guys and Dolls**
 **********
 
 ### Day 50: September 24, 2017
-##### Title/ Project
+#### Title/ Project
 
 **Today's Progress**  
 - Read about [Android partitions](https://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/)  
@@ -346,7 +362,7 @@ Worked on the blog section. I was able to complete 2 shows - ***Guys and Dolls**
 **********
 
 ### Day 49: September 23, 2017
-##### Minimax Algorithm
+#### Minimax Algorithm
 
 **Today's Progress**
 - Read about [Minimax Algorithm](http://neverstopbuilding.com/minimax) I implemented in the Tic Tac Toe game.
@@ -357,7 +373,7 @@ Definitely gonna have to revisit this; I don't get it. the author warned me I mi
 **********
 
 ### Day 48: September 21, 2017
-##### Android Big Nerd Ranch
+#### Android Big Nerd Ranch
 
 **Today's Progress**  
 Chapter 29: Custom Views and Touch Events.
@@ -371,7 +387,7 @@ Chapter 29: Custom Views and Touch Events.
 **********
 
 ### Day 47: September 17, 2017
-##### Javascript Tic Tac Toe
+#### Javascript Tic Tac Toe
 
 **Today's Progress**  
 - Went through a step-by-step tutorial for building a Tic Tac Toe game with an unbeatable AI, using JavaScript and the Minimax Algorithm (51 minute watch): https://www.youtube.com/watch?v=P2TcQ3h0ipQ
@@ -387,7 +403,7 @@ I didn't get into the depths of minimax today. I know it uses recursion somehow.
 **********
 
 ### Day 46: September 14, 2017
-##### Espresso Tests
+#### Espresso Tests
 
 **Today's Progress**  
 Recorded a simple espresso test to validate the UI elements of the main activity.
@@ -401,7 +417,7 @@ Espresso recorder makes it easy to create tests, but there's still a lot of work
 **********
 
 ### Day 45: September 11, 2017
-##### Raspberry Pi
+#### Raspberry Pi
 
 **Today's Progress**  
 - Read up to Chapter 7: Basic Input and Output of [Getting Started with Raspberry Pi](https://media.digikey.com/pdf/Data%20Sheets/O'Reilly_PDFs/Getting_Started_With_Raspberry_Pi_3E_9781680452464.pdf)
@@ -414,7 +430,7 @@ Espresso recorder makes it easy to create tests, but there's still a lot of work
 The ribbon cable to my breakout board didn't fit on the Raspberry Pi 3, so I used the older one. I hadn't powered this one on in a while, so I had to add my new SSID to the network interfaces file. Once I had network, I installed `lightdm` and upgraded Raspbian to the latest version.
 
 ### Day 44: September 10, 2017
-##### iOS Calculator
+#### iOS Calculator
 
 **Today's Progress**  
 
@@ -426,10 +442,10 @@ The ribbon cable to my breakout board didn't fit on the Raspberry Pi 3, so I use
 **********
 
 ### Day 43: September 9, 2017
-##### iOS Calculator
+#### iOS Calculator
 
 **Today's Progress**  
-##### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
+#### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
 [Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
 6. Add a String property to CalculatorBrain called `description` which returns a description of the sequence of operands and operations that led to the value returned by result (or the result so far if `resultIsPending`). The character `=` (the equals sign) should never appear in this description, nor should `...` (ellipses).
 
@@ -442,10 +458,10 @@ I don't get it. I just found [this person's solution](https://github.com/m2mtech
 **********
 
 ### Day 42: September 8, 2017
-##### Java 8 Essential Training
+#### Java 8 Essential Training
 
 **Today's Progress**  
-##### Java Console Calculator
+#### Java Console Calculator
 Created a [console calculator](https://www.linkedin.com/learning/java-8-essential-training/challenge-creating-a-simple-calculator-application?u=2011276) in Java.  
 
 **Thoughts**  
@@ -460,10 +476,10 @@ This project was pretty simple. I'm taking this [Java 8 Essential Training](http
 **********
 
 ### Day 41: September 7, 2017
-##### iOS Calculator
+#### iOS Calculator
 
 **Today's Progress**  
-##### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
+#### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
 [Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
 5. Add a Bool property to your CalculatorBrain called resultIsPending which returns whether there is a binary operation pending.
 
@@ -476,10 +492,10 @@ I did this a different way before I found the right way lol.
 **********
 
 ### Day 40: September 6, 2017
-##### iOS Calculator
+#### iOS Calculator
 
 **Today's Progress**  
-##### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
+#### CS193P IOS APPLICATION DEVELOPMENT WINTER 2017  
 [Assignment 1 Required Tasks](https://github.com/thomasphillips3/cs193p-Winter-2017/blob/master/problemsets/Programming_Project_1_Calculator.pdf)
 1. Get the Calculator working as demonstrated in lectures 1 and 2.
 2. Your Calculator already works with floating point numbers (e.g. if you touch 3 ÷ 4 =, it will properly show 0.75), however, there is no way for the user to enter a floating point number directly. Fix this by allowing legal floating point numbers to be entered (e.g. “192.168.0.1” is not a legal floating point number!). You will need to have a “.” button in your calculator. Don’t worry too much about precision or significant digits in this assignment (doing so is Extra Credit).
@@ -494,7 +510,7 @@ I did this a different way before I found the right way lol.
 **********
 
 ### Day 39: September 5, 2017
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**  
 Finished first drafts of Home, Auditions, Shows, and Contact sections. It's at a point now where we COULD launch it. I suppose this is a MVP.  
@@ -508,7 +524,7 @@ Eventually I want to set up deploying to AWS S3 Bucket directly from Github. Rig
 **********
 
 ### Day 38: September 4, 2017
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**   
 Been working on this website for a few weeks and haven't updated progress here.
@@ -519,7 +535,7 @@ Been working on this website for a few weeks and haven't updated progress here.
 
 **********
 
-##### Developing iOS Apps with Swift
+#### Developing iOS Apps with Swift
 **Today's Progress**
 - Lecture 3: More Swift and the Foundation Framework  
 - Read [Swift API Guidelines](https://swift.org/documentation/api-design-guidelines/)
@@ -530,7 +546,7 @@ Been working on this website for a few weeks and haven't updated progress here.
 - Tuples are new to me, but pretty easy to understand.
 
 ### Day 37: August 17, 2017
-##### Android Background Services  
+#### Android Background Services  
 **Today's Progress**  
 Made it through another couple sections of **Chapter 26: Background Services** in the BigNerdRanch Android Programming Book.  
 
@@ -542,7 +558,7 @@ I don't know why, but every cell in the `RecyclerView` keeps refreshing every ti
 
 **********
 
-##### Arduino Interrupts  
+#### Arduino Interrupts  
 **Today's Progress**  
 - Read about interrupts in [Programming Arduino Next Steps](https://smile.amazon.com/Programming-Arduino-Next-Steps-Electronics-ebook/dp/B00EHIEJYY/ref=sr_1_1_twi_kin_2?ie=UTF8&qid=1503072377&sr=8-1&keywords=arduino+next+steps)  
 - [`attachInterrupt()`](https://www.arduino.cc/en/Reference/AttachInterrupt)  
@@ -557,7 +573,7 @@ I was on a plane, so didn't get to build the hardware to go with this sketch, bu
 **********
 
 ### Day 36: August 13, 2017
-##### Android
+#### Android
 **Today's Progress**  
 Read [What is 'Context' on Android?](https://stackoverflow.com/questions/3572463/what-is-context-on-android)  
 
@@ -568,18 +584,18 @@ Today I just felt like reading up on basics and not doing any code. This was ver
 **********
 
 ### Day 35: August 10, 2017
-##### Packaging Python
+#### Packaging Python
 **Today's Progress**  
 I spent a lot of time trying to figure out how to build a standalone Mac Python app.  
 
-##### Voltage Divider  
+#### Voltage Divider  
 I built a [voltage divider](https://en.wikipedia.org/wiki/Voltage_divider) today too. That was fun.
 
 **********
 **********
 
 ### Day 34: August 4, 2017
-##### Python on a Plane
+#### Python on a Plane
 
 **Today's Progress**  
 Built a temperature converter in Python using Tkinter for the GUI.
@@ -593,7 +609,7 @@ Read this book Programming the Raspberry Pi: Getting Started with Python (Electr
 **********
 
 ### Day 33: August 3, 2017
-##### Python and Arduino on Pi
+#### Python and Arduino on Pi
 
 **Today's Progress**  
 - Set up Arduino IDE on Raspberry Pi
@@ -611,7 +627,7 @@ I've been wanting to do this for a while. Finally getting around to playing arou
 
 
 ### Day 32: August 2, 2017
-##### Android services
+#### Android services
 **Today's Progress**  
 Implemented a background service to update the UI with search results.
 
@@ -624,7 +640,7 @@ It works, but it's kinda fucked up tho. Results aren't cleared, and they cycle a
 **********
 **********
 ### Day 31: July 31, 2017
-##### Android Services
+#### Android Services
 
 **Today's Progress**  
 Created the `PollService` `IntentService`.
@@ -639,7 +655,7 @@ I think learning about services will help me understand activities and fragments
 
 
 ### Day 30: July 30, 2017
-##### Android SearchView
+#### Android SearchView
 
 **Today's Progress**  
 Finished Chapter 23 of Big Nerd Ranch Android book on using the Android **`SearchView`**.   
@@ -651,7 +667,7 @@ This was pretty straightforward. Nothing too surprising.
 **********
 
 ### Day 29: July 29, 2017
-##### Python UI
+#### Python UI
 
 **Today's Progress**  
 
@@ -663,7 +679,7 @@ This was pretty straightforward. Nothing too surprising.
 **********
 
 ### Day 28: July 27, 2017
-##### HockeyApp and TKinter
+#### HockeyApp and TKinter
 
 **Today's Progress:**  
 - I found out how to download the latest APK via the [HockeyApp Python API](http://hockeyapp.readthedocs.io/en/latest/index.html
@@ -678,7 +694,7 @@ I'm super excited to have gotten the HockeyApp API to download an APK! I found r
 **********
 
 ### Day 27: July 26, 2017
-##### Python Classes
+#### Python Classes
 
 **Today's Progress**  
 - Learned how to use classes to make Python program object-oriented.
@@ -693,7 +709,7 @@ Python gives you lots of tools to do things differently. Lots of room for error,
 
 
 ### Day 26: July 25, 2017
-##### Android NPE
+#### Android NPE
 
 **Today's Progress**  
 - Fixed an NPE that was giving me the blues.  
@@ -706,7 +722,7 @@ Python gives you lots of tools to do things differently. Lots of room for error,
 **********
 
 ### Day 25: July 23, 2017
-##### ADB Guide
+#### ADB Guide
 
 **Today's Progress**  
 - Read ADB Guide
@@ -717,7 +733,7 @@ Lots of stuff in here I glossed over previously, or just didn't know. This will 
 **********
 
 ### Day 24: July 22, 2017
-##### C++ Tutorials
+#### C++ Tutorials
 
 **Today's Progress**  
 [Google C++ Getting Started](https://developers.google.com/edu/c++/getting-started)
@@ -733,7 +749,7 @@ Lots of stuff in here I glossed over previously, or just didn't know. This will 
 **********
 
 ### Day 23: July 17, 2017
-##### Android: Handlers
+#### Android: Handlers
 
 **Today's Progress**:
 - Created HandlerThread to download images in the background
@@ -750,7 +766,7 @@ I think I get it.
 **********
 
 ### Day 22: July 15, 2017
-##### Debugging Android
+#### Debugging Android
 
 **Thoughts**  
 I noticed my local placeholder image wasn't showing. I had only ever tested this code while in airplane mode, and suspect that the lack of internet connection is causing the problem. Here's what I think is happening
@@ -764,7 +780,7 @@ Basically, if there's no internet connection, the user won't see anything right 
 
 **********
 
-##### Android Background Thread
+#### Android Background Thread
 
 **Today's Progress**:
 Create a background thread to handle the longer-running background process of downloading images. AsyncTask isn't meant for long-running processes.
@@ -776,7 +792,7 @@ Create a background thread to handle the longer-running background process of do
 **********
 
 ### Day 21: July 9, 2017
-##### Android Paging Challenge
+#### Android Paging Challenge
 
 **Today's Progress**:
 - Implemented OnVerticalScrollListener from [this SO question](https://stackoverflow.com/a/30410605/270847).
@@ -789,7 +805,7 @@ I'm not sure if `OnVerticalScrollListener` is implemented correctly. I put a log
 **********
 
 ### Day 20: July 6, 2017
-##### Python Tkinter
+#### Python Tkinter
 
 **Today's Progress**:
 - Created an app to issue ADB commands from a Tkinter interface
@@ -802,7 +818,7 @@ In Python, I have to define a function above where it's used. Java isn't as pick
 **Link to work** [Repo](#)
 **********
 
-##### GSON
+#### GSON
 
 **Today's Progress**: Converted the parseItems method to use [GSON](https://github.com/google/gson) instead of parsing manually. I read [this forum](https://forums.bignerdranch.com/t/using-gson/7849/5?u=thomasphillips3) to help.
 
@@ -813,7 +829,7 @@ In Python, I have to define a function above where it's used. Java isn't as pick
 **********
 
 ### Day 19: July 5, 2017
-##### Python Tkinter
+#### Python Tkinter
 
 **Today's Progress**:
 Got [Tkinter GUI Application Development Blueprints](https://www.amazon.com/Tkinter-GUI-Application-Development-Blueprints/dp/1785889737).
@@ -828,7 +844,7 @@ The grid system will take some getting used to, but I think I see its merits alr
 **********
 
 ### Day 18: July 4, 2017
-##### Chapter 23: Photo Gallery Networking
+#### Chapter 23: Photo Gallery Networking
 
 **Today's Progress**:
 - Tried debugging why my RecyclerView won't populate with the parsed JSON data
@@ -839,7 +855,7 @@ I set breakpoints and examined everywhere. I must have set up something wrong wi
 **********
 
 ### Day 17: July 3, 2017
-##### Chapter 23: Photo Gallery Networking
+#### Chapter 23: Photo Gallery Networking
 
 **Today's Progress**:
 - Parsed the JSON response from Flickr
@@ -850,7 +866,7 @@ The parsed JSON won't display in my RecyclerView. I'm not sure why this is happe
 **********
 
 ### Day 16: July 2, 2017
-##### Android Intents and Tasks
+#### Android Intents and Tasks
 
 **Today's Progress**:
 Chapter 22: More About Intents and Tasks
@@ -863,7 +879,7 @@ Chapter 22: More About Intents and Tasks
 **Link to work** [More About Intents and Tasks](https://github.com/thomasphillips3/NerdLauncher/commit/693729f8cf1fa86c2c1e47d159adb36ae9e58c77)
 **********
 
-##### Chapter 23: Photo Gallery Networking
+#### Chapter 23: Photo Gallery Networking
 
 **Today's Progress**:
 - Created basic UI of PhotoGallery app
@@ -879,7 +895,7 @@ I feel like this is the starting point of learning some real shit. Networking an
 **********
 
 ### Day 15: July 1, 2017
-##### Letters to My Future Self (CSS)
+#### Letters to My Future Self (CSS)
 
 **Today's Progress**:
 Did more of the cover.
@@ -892,7 +908,7 @@ CSS is tough. Flexbox doesn't all the way make sense. I punched the floor, then 
 **********
 
 ### Day 14: June 30, 2017
-##### Letters to My Future Self (CSS)
+#### Letters to My Future Self (CSS)
 
 **Today's Progress**:
 Did most of the cover.
@@ -905,7 +921,7 @@ CSS is tough.
 **********
 
 ### Day 13: June 29, 2017
-##### Android Intents and Tasks
+#### Android Intents and Tasks
 
 **Today's Progress**:
 -
@@ -917,7 +933,7 @@ I'm using the canary version of Android Studio, so when I added the RecyclerView
 **********
 
 ### Day 12: June 28, 2017
-##### Hashes in C
+#### Hashes in C
 
 **Today's Progress**:
 - I wanted to understand OpenSSL library better, so I played around with ex-hashes.c. I changed the example string to my name. I checked the hash by piping the ouput from `echo` to `openssl` as follows `echo -n "Thomas" | openssl sha256`.
@@ -928,7 +944,7 @@ I'm using the canary version of Android Studio, so when I added the RecyclerView
 **********
 **********
 ### Day 11: June 26, 2017
-##### Accessing Google APIs
+#### Accessing Google APIs
 
 **Today's Progress**:
 - Read and worked through Google [Accessing Google APIs guide](https://developers.google.com/android/guides/api-client)
@@ -944,7 +960,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 
 **********
 
-##### Mongoose
+#### Mongoose
 
 **Today's Progress**:
 - [Mongoose Getting Started Guide](http://mongoosejs.com/docs/)
@@ -954,7 +970,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 
 **********
 
-##### Serialization (pt. 2) in basic blockchain programming
+#### Serialization (pt. 2) in basic blockchain programming
 
 **Today's Progress**:
 - Finished [Serialization (pt. 1)](http://davidederosa.com/basic-blockchain-programming/serialization-part-one/)
@@ -971,7 +987,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 
 **********
 
-##### Letters to My Future Self (CSS)
+#### Letters to My Future Self (CSS)
 ![Letters book](https://m.media-amazon.com/images/S/aplus-media/vc/cee89df3-5b81-4c21-b4fe-04c3095a5698.jpg)
 
 **Today's Progress**:
@@ -985,7 +1001,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 **********
 
 ### Day 10: June 23, 2017
-##### Android - XML Drawables
+#### Android - XML Drawables
 
 **Today's Progress**:
 - Read about 9-Patch images
@@ -996,7 +1012,7 @@ Adding the Google Play Support library to an Android app has helped me understan
 Mipmaps I still don't really get. Gotta check this out more later.
 
 **********
-##### C++
+#### C++
 
 **Today's Progress**:
 - Recursion
@@ -1010,7 +1026,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 - [Greatest Common Denominator](https://gist.github.com/thomasphillips3/eb5ec5b50869334e92ba904b910d48b0)
 - [Animal Afforder](https://gist.github.com/thomasphillips3/07948a1935f79274e476f005b21a6893)
 
-##### Bitcoin/ C
+#### Bitcoin/ C
 
 **Today's Progress**: Read through some basic crypto stuff again. I understand how the code works, but am still having trouble linking to the `openssl` headers. I gotta figure this out.
 
@@ -1022,7 +1038,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 **********
 
 ### Day 9: June 21, 2017
-##### Google C++ Course - Getting Started
+#### Google C++ Course - Getting Started
 
 **Today's Progress**:
 - Continued the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
@@ -1036,7 +1052,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 **********
 
 ### Day 8: June 20, 2017
-##### Google C++ Course - Getting Started
+#### Google C++ Course - Getting Started
 
 **Today's Progress**: Started the [Getting Started section](https://developers.google.com/edu/c++/getting-started) of Google C++ Course.
 - Created a wrapper around g++ to compile code with stricter rules
@@ -1050,7 +1066,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 - [hello2.cpp](https://gist.github.com/thomasphillips3/585c9c43bd5c63dcf54876a9d1362ef5)
 **********
 
-##### Calculator
+#### Calculator
 
 **Today's Progress**: Developing iOS 10 Apps with Swift - Lecture 2: [MVC](https://itunes.apple.com/us/course/2-mvc-ios-xcode-and-swift-demonstration/id1198467120?i=1000381073277&mt=2).
 
@@ -1063,7 +1079,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 **********
 
 ### Day 7: June 18, 2017
-##### Remove static images - Park Players Website
+#### Remove static images - Park Players Website
 
 **Today's Progress:** Since I'm hosting in AWS, I want to only edit the HTML file, and store all assets (images, CSS, JS files) in AWS or in a CDN.
 
@@ -1074,7 +1090,7 @@ I wrote a simple app to find the GCD, and remembered things about C++ I had forg
 **********
 
 ### Day 6: June 13, 2017
-##### C day
+#### C day
 
 **Today's Progress**: I realized my understanding of C is mad rusty. Decided to look at a bunch of C project repos on GitHub.
 * [Terminal Games](https://github.com/stillmotion/terminal-games)
@@ -1090,7 +1106,7 @@ So I'm going to start with the Terminal Games repo. The games seem to be just ou
 **********
 
 ### Day 5: June 12, 2017
-##### Serialization in C++
+#### Serialization in C++
 
 **Today's Progress**: [Serialization (pt. 1)](http://davidederosa.com/basic-blockchain-programming/serialization-part-one/) of [Davide De Rosa's Blockchain Programming Tutorial](http://davidederosa.com/basic-blockchain-programming/).
 
@@ -1103,7 +1119,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 **********
 
 ### Day 4: June 11, 2017
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**: Began uploading all assets to their own S3 bucket. Replaced pics with correct sizes.
 
@@ -1114,7 +1130,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 **********
 
 ### Day 3: June 10, 2017
-##### Park Players Website
+#### Park Players Website
 
 **Today's Progress**: Began uploading all assets to their own S3 bucket. Replaced pics with correct sizes.
 
@@ -1125,7 +1141,7 @@ I am making good progress, but going to sleep now...at 2:40 am. The last issue I
 **********
 
 ### Day 2: June 9, 2017
-##### Rotation Handling and Styles & Themes
+#### Rotation Handling and Styles & Themes
 
 **Today's Progress**: Read about handling rotations in Big Nerd Ranch Chapter 18. There are two different ways - retain the fragment or override onSavedInstanceState(Bundle).
 
@@ -1138,7 +1154,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 **********
 
 ### Day 1: June 8, 2017
-##### BeatBox
+#### BeatBox
 
 **Today's Progress**: Learned about SoundPool and assets. Big Nerd Ranch chapters 18 and 19.
 
@@ -1150,7 +1166,7 @@ Applied themes and styles to the Beatbox app. Learned to traverse the theme hier
 
 
 ### Day: Date
-##### Title/ Project
+#### Title/ Project
 
 **Today's Progress**  
 
