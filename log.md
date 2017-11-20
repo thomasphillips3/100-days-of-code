@@ -1,4 +1,17 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 71: November 19, 2017
+#### Getting started with NumPy
+
+**Today's Progress**  
+Did the first 6 exercises of [Getting started with NumPy](https://www.dataquest.io/m/6/getting-started-with-numpy)
+
+**Thoughts**  
+
+**Link to work**   
+[Getting started with NumPy](https://www.dataquest.io/m/6/getting-started-with-numpy)
+**********
+**********
+
 ### Day 70: November 12, 2017
 #### Android: An Introduction to Material Design with Kotlin
 
