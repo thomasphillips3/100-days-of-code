@@ -1,4 +1,37 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 74: November 25, 2017
+#### Android Property Animators  
+![sunrise-sunset](https://media.giphy.com/media/3ohs82Urk11XNdI6m4/giphy.gif)
+
+**Today's Progress**  
+Big Nerd Ranch - Android Programming. Chapter 30: Property Animation  
+
+**Thoughts**  
+Got an idea of how animations are handled in Android.
+
+**Link to work**   
+[Sunset](https://github.com/thomasphillips3/Sunset)
+**********
+**********
+
+### Day 73: November 24, 2017
+#### Computation with NumPy
+
+**Today's Progress**  
+Started the next module in Data Analyst path on DataQuest
+
+**Thoughts**  
+This is a lot of work, but I'm going to stick with it to the end. I think I'll have some really good skills at the end of this course.
+
+### Day 72: November 22, 2017
+#### Getting started with NumPy
+
+**Today's Progress**  
+Finished [Getting started with NumPy](https://www.dataquest.io/m/6/getting-started-with-numpy).
+
+**********
+**********
+
 ### Day 71: November 19, 2017
 #### Getting started with NumPy
 
@@ -6,6 +39,7 @@
 Did the first 6 exercises of [Getting started with NumPy](https://www.dataquest.io/m/6/getting-started-with-numpy)
 
 **Thoughts**  
+I started the Data Analyst Path on DataQuest. I think this is a great way to get some idea of real-world Python uses.
 
 **Link to work**   
 [Getting started with NumPy](https://www.dataquest.io/m/6/getting-started-with-numpy)
