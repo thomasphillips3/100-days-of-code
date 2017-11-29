@@ -1,4 +1,39 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 76: November 28, 2017
+#### Hugo/ Netlify Blog
+
+**Today's Progress**  
+- Created a new Hugo blog
+- I got an error when I tried to build. Couldn't figure out why before I went to sleep
+
+**Thoughts**  
+I had some trouble building my site. Did a lot of debugging. It made me slow down and understand each step of the tutorial I was following. I performed a docker build locally to debug my error. [Here's the log](https://app.netlify.com/sites/hardcore-allen-023d80/deploys/5a1e589a0b79b7055ed77c40).
+
+```
+docker pull netlify/build ;
+git clone https://github.com/netlify/build-image ;
+cd build-image ;
+./test-tools/start-image.sh /path/to/your/repository
+```
+
+**Links**   
+- [How Netlify Build Bots Build Sites](https://www.netlify.com/blog/2016/10/18/how-our-build-bots-build-sites/)
+- [Cannot connect to the Docker daemon on macOS](https://stackoverflow.com/questions/44084846/cannot-connect-to-the-docker-daemon-on-macos)
+- [Getting Hugo running on Netlify](https://www.burntfen.com/2017-04-16/getting-hugo-running-on-netlify)
+- [Blogstrathomas Repo](https://github.com/thomasphillips3/blogstrathomas)
+
+**********
+**********
+
+### Day 75: November 27, 2017
+#### Hugo
+
+**Today's Progress**  
+- Read [Front Matter](https://gohugo.io/content-management/front-matter/)
+
+**********
+**********
+
 ### Day 74: November 25, 2017
 #### Android Property Animators  
 ![sunrise-sunset](https://media.giphy.com/media/3ohs82Urk11XNdI6m4/giphy.gif)
