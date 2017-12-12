@@ -9,9 +9,11 @@
 **Thoughts**
 This site isn't as pretty as the first one, but it's waaaayy more functional, and extensible. Added CMS login to the website. People can create accounts and view the admin page. The admin page displays and I'm able to create accounts and log in. Next step is to be able to add content through the CMS.
 
+![Park Players CMS](res/pp-cms.gif)
+
 **Link to work**
-[park-players-beta.netlify.com](https://park-players-beta.netlify.com)
-[admin site(https://park-players-beta.netlify.com/admin)]
+- [park-players-beta.netlify.com](https://park-players-beta.netlify.com)
+- [admin site](https://park-players-beta.netlify.com/admin)
 **********
 **********
 
