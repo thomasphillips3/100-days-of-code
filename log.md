@@ -1,4 +1,21 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 80: December 13, 2017
+#### LAMP
+
+**Today's Progress**
+- I was working on creating an inventory tracking system for my team's cell phones at work. I found [ISLE - Inventory System for Lab Equipment](https://github.com/nasa/isle), which was pretty much exactly what I needed. I realized I don't know much about LAMP though, so to get a better understanding, I went through a LAMP tutorial from IBM.
+
+**Thoughts**
+- Default password was `D+jj&exA=5dq`
+
+**Link to work**
+- [Introduction to LAMP technology](https://www.ibm.com/developerworks/web/tutorials/wa-lamp/wa-lamp.html)
+- [Installing Apache, PHP, and MySQL on Mac OS X Sierra](https://jason.pureconcepts.net/2016/09/install-apache-php-mysql-mac-os-x-sierra/)
+- [Update Mac Os X's php version to php 7.1 using homebrew](https://gist.github.com/pixeline/51c43c787f51b018d484597f30be3d2b)
+
+**********
+**********
+
 ### Day 79: December 11, 2017
 #### Hugo/ Netlify Blog
 
