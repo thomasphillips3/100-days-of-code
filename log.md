@@ -1,4 +1,70 @@
 # Thomas Phillips 100 Days Of Code - Log
+### Day 83: December 16, 2017
+#### Docker
+
+**Today's Progress**
+- Went through [Docker for Beginners](https://docker-curriculum.com/)
+- Built a static site in a container, that used elasticsearch from another container and hosted on AWS.
+
+**Thoughts**
+I started this part yesterday, but ran into a roadblock when I tried to run `docker-compose up`. The site container never connected to the elasticsearch one. I found there is a typo in the tutorial
+
+Specifying the version for `elasticsearch` in the `docker-compose.yml` fixed it for me. The [tutorial](https://docker-curriculum.com) has
+
+```
+version: "2"
+services:
+  es:
+    image: elasticsearch
+...
+```
+
+But this works:
+```
+version: "2"
+services:
+  es:
+    image: elasticsearch:2.3
+...
+```
+
+A few other people reported issues on GitHub, but no one has submitted a PR. I don't see the file in the repo, or I'd submit it myself. I just respoded to a couple people's issues with what helped me. Hopefully it'll fix their issue too.
+
+**Links to Work**
+
+**********
+**********
+
+### Day 82: December 15, 2017
+#### Docker
+
+**Today's Progress**
+- Went through [Docker for Beginners](https://docker-curriculum.com/)
+- Built a docker image with a static website
+- Hosted the single-container docker environment on [AWS Elastic Beanstalk](https://console.aws.amazon.com/elasticbeanstalk/home?region=us-east-1#/getting_started)
+![Fresh Prince Gifs](res/freshgif.gif)
+
+**Thoughts**
+Finally taking the timer to understand what Docker is has been really beneficial. I never fully knew what it was. The tutorial on their website is dope as hell. Gonna definitely keep working with this.
+
+**Links to Work**
+- [thomasphillips3/freshgif on DockerHub](https://hub.docker.com/r/thomasphillips3/freshgif/)
+
+**********
+**********
+
+### Day 81: December 14, 2017
+#### Computation with NumPy
+
+**Today's Progress**
+Finished the mission today.
+
+**Thoughts**
+Feels good to have hit a goal in the course. I learned about the [NumPy](http://www.numpy.org/) package.
+
+**********
+**********
+
 ### Day 80: December 13, 2017
 #### LAMP
 
