@@ -1,5 +1,34 @@
 # Thomas Phillips 100 Days Of Code - Log
-## Day 91: January 3, 2017
+## Day 93: January 7, 2018
+### Android - Locations and Play Services
+
+**Today's Progress**
+
+Created an app that uses Google Play Services for location from the Big Nerd Ranch Android book.
+
+**Thoughts**
+
+Permissions have changed since the book was released. I am looking at the new preferred way to handle permissions. Will finish it tomrorow.
+
+**Links**
+- [Working with System Permissions](https://developer.android.com/training/permissions/index.html)
+- [Using the Design Support Library](https://developer.android.com/training/material/design-library.html)
+**********
+**********
+
+## Day 92: January 5, 2018
+### Espresso
+
+**Today's Progress**
+Used Espresso recorder to create some tests for some of my previous apps.
+
+**Thoughts**
+I looked for some open source projects on GitHub to clone, then write some basic tests. I did that for Signal, as well as some of my old tutorial apps.
+
+**********
+**********
+
+## Day 91: January 3, 2018
 ### Blogstrathomas
 
 **Today's Progress**
@@ -25,7 +54,7 @@ Gerald from Netlify hit me back:
 **********
 **********
 
-## Day 90: January 2, 2017
+## Day 90: January 2, 2018
 ### Blogstrathomas
 
 **Today's Progress**
