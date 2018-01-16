@@ -1,4 +1,93 @@
 # Thomas Phillips 100 Days Of Code - Log
+## Day 100: January 15, 2018
+### Espresso/ React Native
+
+**Today's Progress**
+- Created a test to swipe through all screens on the splash page
+
+**Links**
+[Discovering Espresso for Android: swiping.](http://qathread.blogspot.com/2014/01/discovering-espresso-for-android-swiping.html)
+[`GeneralSwipeAction`](https://developer.android.com/reference/android/support/test/espresso/action/GeneralSwipeAction.html)
+**********
+
+### 100 Days of code
+**Today's Progress**
+- Finished 100 days of code
+- Created a Hugo site for my next 100 days of code
+
+**********
+**********
+
+## Day 99: January 14, 2018
+### Espresso/ React Native
+
+**Today's Progress**
+- Refactored code to have `utils` and `Pages` packages
+
+**Thoughts**
+Investing the time up front to have clean code will allow this to be extensible. I'm glad that I read a lot of the things I did before embarking on a real project.
+
+**********
+**********
+
+## Day 98: January 13, 2018
+### Hugo/ GitLab
+
+**Today's Progress**
+Created a new Hugo blog using Netlify CMS.
+
+**Thoughts**
+This has to be in a private repo, so I tried doing it on GitLab, but Netlify isn't fully compatible. Guess it's time to start paying for GitHub lol.
+
+**********
+**********
+
+## Days 97: January 12, 2018
+### Espresso/ React Native
+
+**Today's Progress**
+- Created a test case for the registration flow
+
+**********
+**********
+
+## Day 96: January 11, 2018
+### React Native
+
+**Today's Progress**
+- Got React Native working on iOS and Android emulators.
+- Created Espresso tests for Android version
+
+**Link to work**
+[Resolving conflicts between main and test APK](https://sites.google.com/a/android.com/tools/tech-docs/new-build-system/user-guide#TOC-Resolving-conflicts-between-main-and-test-APK)
+**********
+**********
+
+## Day 95: January 10, 2018
+### Android Testing
+
+**Today's Progress**
+Met with the homie about testing his app.
+- Installed and configured [Yarn](https://yarnpkg.com/en/docs/getting-started)
+- Installed and configured [React Native](https://facebook.github.io/react-native/docs/getting-started.html)
+- Read [Merge Multiple Manifest Files](https://developer.android.com/studio/build/manifest-merge.html)
+
+**********
+**********
+
+## Day 94: January 9, 2018
+### Android - Espresso
+
+**Today's Progress**
+Read [Android Testing Options](https://github.com/codepath/android_guides/wiki/Android-Testing-Options)
+
+**Links**
+- [Android Testing Options](https://github.com/codepath/android_guides/wiki/Android-Testing-Options)
+- [UI Testing with Espresso](https://github.com/codepath/android_guides/wiki/UI-Testing-with-Espresso)
+- [Espresso Cheat Sheet](espresso-cheat-sheet-2.1.0.pdf)
+**********
+**********
+
 ## Day 93: January 7, 2018
 ### Android - Locations and Play Services
 
