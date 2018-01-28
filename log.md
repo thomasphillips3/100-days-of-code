@@ -2,16 +2,16 @@
 ## Day 100: January 15, 2018
 ### Espresso/ React Native
 
-**Today's Progress**
+**Today's Progress**  
 - Created a test to swipe through all screens on the splash page
 
-**Links**
-[Discovering Espresso for Android: swiping.](http://qathread.blogspot.com/2014/01/discovering-espresso-for-android-swiping.html)
-[`GeneralSwipeAction`](https://developer.android.com/reference/android/support/test/espresso/action/GeneralSwipeAction.html)
+**Links**  
+- [Discovering Espresso for Android: swiping.](http://qathread.blogspot.com/2014/01/discovering-espresso-for-android-swiping.html)
+- [`GeneralSwipeAction`](https://developer.android.com/reference/android/support/test/espresso/action/GeneralSwipeAction.html)
 **********
 
 ### 100 Days of code
-**Today's Progress**
+**Today's Progress**  
 - Finished 100 days of code
 - Created a Hugo site for my next 100 days of code
 
