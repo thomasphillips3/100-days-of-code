@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  # name: test-repo
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  - name: "code"
+    label: "Day of code"
+    tags: [""]
+    folder: "data/days"
+    create: true
+    slug: "Day_{{day}}-{{slug}}"
+    fields:
+      - { label: "Day", name: "day", widget: "number" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Today's Progress, Thoughts, Links", name: "body", widget: "markdown"}
+      - { label: "Tags", name: "tags", widget: "list", default: ["100daysofcode"], required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
