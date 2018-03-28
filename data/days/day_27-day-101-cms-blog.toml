@@ -1,0 +1,9 @@
+day = "101"
+title = "Day 101: CMS Blog"
+date = "2018-01-16T23:10:52-08:00"
+description = "## Today's Progress\n\nMoved my [100 days of code](https://github.com/thomasphillips3/100-days-of-code/blob/master/log.md) to a [Hugo blog](#).\n\n## Thoughts\n\nI'm glad this coincided with my 100th day. This is dope. It's still very rough, but I'll keep working on it.\n\n## Relevant Links\n\n* [How to use template parameters in page content in hugo](https://stackoverflow.com/questions/42023687/how-to-use-template-parameters-in-page-content-in-hugo)"
+image = "/img/day_101-full.png"
+thumb = "/img/day_101-thumb.png"
+alt = "Day 101. CMS blog."
+url = "https://github.com/thomasphillips3/100-days-of-code"
+tags = ["100daysofcode", "hugo", "netlify-cms"]
