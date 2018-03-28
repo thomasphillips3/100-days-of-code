@@ -5,5 +5,5 @@ description = "## Today's Progress\n\nMoved my [100 days of code](https://github
 image = "/img/day_101-full.png"
 thumb = "/img/day_101-thumb.png"
 alt = "Day 101. CMS blog."
-url = "https://github.com/thomasphillips3/100-days-of-code"
+url = "https://github.com/thomasphillips3/blogstrathomas"
 tags = ["100daysofcode", "hugo", "netlify-cms"]
