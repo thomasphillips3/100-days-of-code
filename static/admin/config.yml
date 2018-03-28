@@ -12,7 +12,7 @@ collections:
     tags: [""]
     folder: "data/days"
     create: true
-    slug: "Day_{{day}}-{{slug}}"
+    slug: "{{slug}}"
     extension: "toml"
     fields:
       - { label: "Day", name: "day", widget: "number" }
