@@ -3,7 +3,7 @@ backend:
   # name: test-repo
   branch: master
 
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 media_folder: "static/img"
 public_folder: "/img"
 
@@ -19,7 +19,9 @@ collections:
       - { label: "Day", name: "day", widget: "number" }
       - { label: "Title", name: "title", widget: "string", default: "Day " }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Today's Progress, Thoughts, Links", name: "body", widget: "markdown"}
-      - { label: "Tags", name: "tags", widget: "list", default: ["100daysofcode"], required: false }
+      - { label: "Today's Progress", name: "description", widget: "markdown"}
       - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
+      - { label: "Thumb", name: "thumb", widget: "image", required: false }
+      - { label: "Alt text", name: "alt", widget: "string", required: false }
+      - { label: "Link to Work", name: "url", widget: "string", default: "https://github.com/thomasphillips3/100-days-of-code" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["100daysofcode"], required: false }
