@@ -14,9 +14,10 @@ collections:
     folder: "data/days"
     create: true
     slug: "Day_{{day}}-{{slug}}"
+    extension: "toml"
     fields:
       - { label: "Day", name: "day", widget: "number" }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string", default: "Day " }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Today's Progress, Thoughts, Links", name: "body", widget: "markdown"}
       - { label: "Tags", name: "tags", widget: "list", default: ["100daysofcode"], required: false }
