@@ -19,8 +19,8 @@ collections:
       - { label: "Title", name: "title", widget: "string", default: "Day " }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Today's Progress", name: "description", widget: "markdown"}
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Thumb", name: "thumb", widget: "image", required: false }
+      - { label: "Image (500 x 500)", name: "image", widget: "image", required: false }
+      - { label: "Thumb (250 x 250)", name: "thumb", widget: "image", required: false }
       - { label: "Alt text", name: "alt", widget: "string", required: false }
       - { label: "Link to Work", name: "url", widget: "string", default: "https://github.com/thomasphillips3/100-days-of-code" }
       - { label: "Tags", name: "tags", widget: "list", default: ["100daysofcode"], required: false }
