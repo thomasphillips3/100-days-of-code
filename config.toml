@@ -23,7 +23,7 @@ publishdir = "public"
     bodybgcolor = "#f9f9f9"
 
     # Preview container button text
-    buttontext = "Read more"
+    buttontext = "Link to Work"
 
     # Footer text
     footertext = "[Check me out on GitHub](https://github.com/thomasphillips3)"
